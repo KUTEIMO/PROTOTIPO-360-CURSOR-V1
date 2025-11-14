@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es" class="no-js">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour Virtual Universitario</title>
+    <meta name="description" content="Recorrido virtual accesible por la Sede 2 utilizando imágenes 360° y puntos de interés guiados.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/utilities.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/navigation.css">
+    <link rel="stylesheet" href="css/menu/scene-menu.css">
+    <link rel="stylesheet" href="css/menu/menu-groups.css">
+    <link rel="stylesheet" href="css/menu/accessibility-menu.css">
+    <link rel="stylesheet" href="css/components/loading.css">
+    <link rel="stylesheet" href="css/components/error-notification.css">
+    <link rel="stylesheet" href="css/components/hotspots.css">
+    <link rel="stylesheet" href="css/components/nav-hotspot.css">
+    <link rel="stylesheet" href="css/components/speaking-indicator.css">
+    <link rel="stylesheet" href="css/components/accessibility-controls.css">
+    <link rel="stylesheet" href="css/components/hotspot-panel.css">
+    <link rel="stylesheet" href="css/components/skip-links.css">
+    <link rel="stylesheet" href="css/components/fallback.css">
+    <script defer src="vendors/marzipano.min.js"
+      onerror="(function(){var s=document.createElement('script');s.src='https://cdn.jsdelivr.net/npm/marzipano/dist/marzipano.js';document.head.appendChild(s);})();"></script>
+</head>
+<body class="no-js">
+    <a class="skip-link" href="#sceneMenu" id="skipMenu">Saltar al menú de escenas</a>
+    <a class="skip-link" href="#hotspotList" id="skipHotspots">Saltar al primer hotspot</a>
+
+    <noscript>
+        <div class="fallback" role="note">
+            <h1>Tour Virtual Universitario</h1>
+            <p>Activa JavaScript para explorar el recorrido interactivo. Mientras tanto, revisa la imagen de referencia y la descripción textual.</p>
+            <figure>
+                <img src="panoramas/R0010060_202503281449_YP00145909.JPG" alt="Entrada principal de la sede con árboles laterales y rampa de acceso.">
+                <figcaption>Entrada principal de la sede 2 con acceso accesible y zona de bienvenida.</figcaption>
+            </figure>
+            <p>
+                <a href="assets/transcripts/entrada-principal.txt" download>Descargar transcripción descriptiva</a>
+            </p>
+        </div>
+    </noscript>
+
+    <div class="fallback no-js-message" id="noJsMessage">
+        <h2>Activando experiencia accesible…</h2>
+        <p>Si ves este mensaje por más de unos segundos, actualiza la página o habilita JavaScript.</p>
+    </div>
+
+    <div class="tour-container" id="tourApp" aria-live="polite">
+        <header class="tour-header" role="banner">
+            <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="sceneMenu">
+                <span class="sr-only">Abrir o cerrar menú de escenas</span>
+                <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false">
+                    <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                </svg>
+            </button>
+            <div class="title-wrapper">
+                <h1 class="scene-title" id="sceneTitle" tabindex="-1">Tour Virtual Universitario</h1>
+                <p class="scene-zone" id="sceneZone" aria-live="polite"></p>
+            </div>
+            <div class="action-buttons" role="group" aria-label="Acciones rápidas">
+                <button class="action-button" id="shareButton" type="button">
+                    <span class="sr-only">Compartir escena</span>
+                    <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false">
+                        <path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7a3.046 3.046 0 0 0 0-1.39l7.02-4.11A3 3 0 1 0 15 6a2.98 2.98 0 0 0 .05.55L8.03 10.7a3 3 0 1 0 0 4.6l7.02 4.16A3 3 0 1 0 18 16.08z"/>
+                    </svg>
+                </button>
+                <button class="action-button" id="helpToggle" type="button" aria-haspopup="dialog" aria-controls="helpDialog">
+                    <span class="sr-only">Ver ayuda de navegación y accesos directos</span>
+                    <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false">
+                        <path d="M11 7h2v2h-2zm0 4h2v6h-2zm1-9a10 10 0 1 0 0 20 10 10 0 0 0 0-20z"/>
+                    </svg>
+                </button>
+                <button class="action-button" id="accessibilityToggle" type="button" aria-controls="accessibilityMenu" aria-expanded="false">
+                    <span class="sr-only">Abrir panel de accesibilidad</span>
+                    <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false">
+                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3a2 2 0 1 1 0 4 2 2 0 0 1 0-4zm7 7h-4v8h-2v-5h-2v5H9v-8H5v-2h14v2z"/>
+                    </svg>
+                </button>
+            </div>
+        </header>
+
+        <div class="accessibility-toolbar" role="region" aria-label="Herramientas de accesibilidad">
+            <div class="toolbar-group">
+                <span id="textSizeLabel">Tamaño de texto:</span>
+                <button type="button" class="toolbar-button" data-font-size="decrease" aria-describedby="textSizeLabel">A-</button>
+                <button type="button" class="toolbar-button" data-font-size="reset" aria-describedby="textSizeLabel">A</button>
+                <button type="button" class="toolbar-button" data-font-size="increase" aria-describedby="textSizeLabel">A+</button>
+            </div>
+            <div class="toolbar-group">
+                <span id="contrastLabel">Contraste:</span>
+                <button type="button" class="toolbar-button" data-contrast="high" aria-describedby="contrastLabel">Alto</button>
+                <button type="button" class="toolbar-button" data-contrast="off" aria-describedby="contrastLabel">Normal</button>
+            </div>
+            <div class="toolbar-group">
+                <label for="accessibleModeToggle">Modo accesible</label>
+                <input type="checkbox" id="accessibleModeToggle" role="switch" aria-checked="false">
+            </div>
+        </div>
+
+        <main class="tour-layout" role="main">
+            <section id="viewerSection" class="viewer-section" aria-label="Visor panorámico">
+                <div id="loadingOverlay" class="loading-overlay" aria-hidden="true">
+                    <div class="loading-spinner" role="status" aria-live="assertive">
+                        <span class="sr-only">Cargando escena</span>
+                    </div>
+                </div>
+                <div id="panorama" class="panorama" role="application" aria-label="Visor 360 grados" tabindex="0"></div>
+                <button class="nav-arrow nav-prev" id="prevScene" type="button" aria-label="Ir a la escena anterior">‹</button>
+                <button class="nav-arrow nav-next" id="nextScene" type="button" aria-label="Ir a la escena siguiente">›</button>
+                <div class="direction-cue" id="directionCue" aria-hidden="true"></div>
+                <div class="keyboard-instructions" id="keyboardInstructions" aria-live="polite" hidden>
+                    Usa las flechas para rotar, las teclas + y - para acercar o alejar y Q/E para inclinar verticalmente.
+                </div>
+                <ul class="hotspot-inline-list" id="hotspotList" aria-label="Destinos destacados"></ul>
+            </section>
+
+            <nav class="scene-menu" id="sceneMenu" aria-label="Menú de escenas" aria-expanded="false">
+                <div class="scene-menu__inner">
+                    <h2 id="sceneMenuTitle">Escenas disponibles</h2>
+                    <p id="sceneMenuDescription">Selecciona una escena para recorrer la sede. Puedes navegar con teclado utilizando Tab y Enter.</p>
+                    <ul class="scene-group-list" id="sceneGroupList" role="tree"></ul>
+                </div>
+            </nav>
+        </main>
+
+        <aside class="accessibility-menu" id="accessibilityMenu" role="dialog" aria-modal="true" aria-labelledby="accessibilityMenuTitle" hidden>
+            <div class="accessibility-header">
+                <h2 id="accessibilityMenuTitle">Panel de accesibilidad</h2>
+                <button class="close-button" id="closeAccessibility" type="button">
+                    <span class="sr-only">Cerrar panel de accesibilidad</span>
+                    ×
+                </button>
+            </div>
+            <div class="accessibility-options">
+                <div class="option-item">
+                    <label class="switch">
+                        <input type="checkbox" id="textToSpeechToggle">
+                        <span class="slider round"></span>
+                    </label>
+                    <span class="option-label">Activar lector automático de hotspots</span>
+                </div>
+                <div class="option-info">
+                    Activa la narración automática al abrir un punto de interés. Los controles pueden manejarse con teclado.
+                </div>
+            </div>
+            <div class="option-item">
+                <label class="switch">
+                    <input type="checkbox" id="captionAutoToggle">
+                    <span class="slider round"></span>
+                </label>
+                <span class="option-label">Mostrar subtítulos automáticamente</span>
+            </div>
+            <div class="option-info">
+                Los subtítulos provienen de archivos VTT y se presentan en un panel accesible.
+            </div>
+        </aside>
+
+        <section class="hotspot-panel" id="hotspotPanel" role="dialog" aria-modal="true" aria-labelledby="hotspotPanelTitle" hidden tabindex="-1">
+            <div class="hotspot-panel__header">
+                <h2 id="hotspotPanelTitle">Detalle del punto de interés</h2>
+                <button type="button" class="close-button" id="closeHotspotPanel">
+                    <span class="sr-only">Cerrar detalle del hotspot</span>
+                    ×
+                </button>
+            </div>
+            <div class="hotspot-panel__body">
+                <p id="hotspotSummary"></p>
+                <div class="hotspot-audio" role="group" aria-label="Controles de audiodescripción">
+                    <p id="audioStatus" aria-live="polite"></p>
+                    <div class="audio-controls">
+                        <button type="button" class="audio-control" data-audio-action="play">Reproducir</button>
+                        <button type="button" class="audio-control" data-audio-action="pause">Pausar</button>
+                        <button type="button" class="audio-control" data-audio-action="stop">Detener</button>
+                    </div>
+                    <label for="audioVolume" id="volumeLabel">Volumen</label>
+                    <input type="range" id="audioVolume" min="0" max="1" step="0.1" value="1" aria-labelledby="volumeLabel">
+                    <audio id="hotspotAudio" preload="metadata" aria-describedby="hotspotSummary"></audio>
+                </div>
+                <div class="caption-controls">
+                    <button type="button" id="toggleCaptions" class="toolbar-button">Mostrar subtítulos</button>
+                    <div id="captionContainer" class="caption-container" role="log" aria-live="polite"></div>
+                </div>
+                <div class="transcript-actions">
+                    <a id="transcriptDownload" href="#" download class="transcript-link">Descargar transcripción</a>
+                </div>
+            </div>
+        </section>
+
+        <dialog class="help-dialog" id="helpDialog" aria-labelledby="helpDialogTitle">
+            <h2 id="helpDialogTitle">Ayuda rápida</h2>
+            <p>Atajos de teclado disponibles:</p>
+            <ul id="helpShortcutsList"></ul>
+            <button type="button" id="closeHelpDialog" class="toolbar-button">Cerrar</button>
+        </dialog>
+
+        <dialog class="share-dialog" id="shareDialog" aria-labelledby="shareDialogTitle">
+            <h2 id="shareDialogTitle">Compartir escena</h2>
+            <p>Comparte el recorrido con este enlace. Incluye la escena actual.</p>
+            <div class="share-dialog__content">
+                <input type="text" readonly id="shareInput" aria-label="Enlace para compartir">
+                <button type="button" class="toolbar-button" id="copyShareLink">Copiar enlace</button>
+            </div>
+            <p id="shareStatus" role="status" aria-live="polite"></p>
+            <button type="button" id="closeShareDialog" class="toolbar-button">Cerrar</button>
+        </dialog>
+
+        <div class="sr-only" id="sceneAnnouncement" aria-live="polite"></div>
+        <div class="sr-only" id="hotspotAnnouncement" aria-live="assertive"></div>
+    </div>
+
+    <script>
+      window.addEventListener('DOMContentLoaded', function () {
+        if (!window.Marzipano) {
+          console.error('Marzipano no se pudo cargar desde vendors/marzipano.min.js ni desde la CDN.');
+          const fallback = document.getElementById('noJsMessage');
+          if (fallback) {
+            fallback.removeAttribute('hidden');
+            fallback.style.display = 'block';
+            fallback.innerHTML = '<h2>Error al cargar el visor 360°</h2><p>No fue posible inicializar Marzipano. Revisa que el archivo <code>vendors/marzipano.min.js</code> exista y que no haya bloqueadores de red activos.</p>';
+          }
+        }
+      });
+    </script>
+    <script type="module" src="src/main.js"></script>
+</body>
+</html>

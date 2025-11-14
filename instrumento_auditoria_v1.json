@@ -1,0 +1,39 @@
+{
+  "version": "v1",
+  "fecha_corte": "2025-11-12T00:00:00.000Z",
+  "escenas": [
+    {
+      "id": "entrada-principal",
+      "nombre": "Entrada Principal - Sede 2",
+      "criterios": {
+        "A": { "estado": "completo", "observacion": "Alt y descripción larga presentes." },
+        "B": { "estado": "completo", "observacion": "Hotspots declarados como botones accesibles." },
+        "C": { "estado": "completo", "observacion": "Audiodescripción enlazada a placeholder mp3." },
+        "D": { "estado": "completo", "observacion": "Transcripción descargable disponible." },
+        "E": { "estado": "completo", "observacion": "Archivo VTT con subtítulos cargado." },
+        "F": { "estado": "completo", "observacion": "Instrucciones de teclado definidas en config." },
+        "G": { "estado": "completo", "observacion": "Escena enlaza con biblioteca." },
+        "H": { "estado": "completo", "observacion": "Zona referenciada en tabla de taxonomía." }
+      }
+    },
+    {
+      "id": "biblioteca-principal",
+      "nombre": "Biblioteca - Planta Principal",
+      "criterios": {
+        "A": { "estado": "completo", "observacion": "Alt y descripción larga presentes." },
+        "B": { "estado": "completo", "observacion": "Hotspots cumplen con campos accesibles." },
+        "C": { "estado": "completo", "observacion": "Audiodescripción placeholder disponible." },
+        "D": { "estado": "completo", "observacion": "Transcripción descargable provista." },
+        "E": { "estado": "completo", "observacion": "Subtítulos VTT listos." },
+        "F": { "estado": "completo", "observacion": "Instrucciones específicas de teclado para la escena." },
+        "G": { "estado": "completo", "observacion": "Cuenta con enlace de retorno a la entrada." },
+        "H": { "estado": "completo", "observacion": "Zona documentada en config.zones." }
+      }
+    }
+  ],
+  "notas_generales": [
+    "Los estados reflejan la configuración inicial del MVP accesible.",
+    "Actualizar este archivo tras cada iteración de mejoras."
+  ]
+}
+

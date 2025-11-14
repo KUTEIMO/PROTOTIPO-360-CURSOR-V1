@@ -1,0 +1,65 @@
+/* Header */
+.tour-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: var(--black-80);
+  backdrop-filter: blur(10px);
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  z-index: 1000;
+  gap: 1rem;
+}
+
+.title-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1;
+  gap: 0.25rem;
+}
+
+.menu-toggle {
+  background: var(--emerald);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.scene-title {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.scene-zone {
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.action-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.action-button {
+  background: var(--emerald-80);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.action-button:focus-visible,
+.menu-toggle:focus-visible {
+  outline: 3px solid #fff;
+  outline-offset: 2px;
+}

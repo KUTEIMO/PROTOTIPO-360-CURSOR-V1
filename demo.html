@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Demo guiada – Tour Virtual Accesible</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components/skip-links.css">
+  <style>
+    body { background: #0f172a; color: #f8fafc; font-family: 'Inter', sans-serif; padding: 2rem; }
+    header { margin-bottom: 2rem; }
+    main { max-width: 960px; margin: 0 auto; display: grid; gap: 2rem; }
+    section { background: rgba(15, 23, 42, 0.8); padding: 1.5rem 2rem; border-radius: 1rem; }
+    h1, h2 { color: #38bdf8; }
+    ol, ul { margin-left: 1.5rem; }
+    a { color: #34d399; }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#pasos">Saltar a los pasos de demo</a>
+  <header>
+    <h1>Demo guiada del MVP accesible</h1>
+    <p>Utiliza esta guía rápida para presentar el recorrido virtual y verificar los controles clave.</p>
+  </header>
+  <main>
+    <section id="preparacion">
+      <h2>Preparación</h2>
+      <ol>
+        <li>Ejecuta <code>npm install</code> la primera vez.</li>
+        <li>Inicia el servidor con <code>npm run start</code> y abre <code>http://localhost:8080/index.html</code>.</li>
+        <li>Activa un lector de pantalla (NVDA, VoiceOver o Narrador) para validar mensajes <code>aria-live</code>.</li>
+      </ol>
+    </section>
+
+    <section id="pasos">
+      <h2>Pasos sugeridos para la demostración</h2>
+      <ol>
+        <li>Usa los enlaces iniciales “Saltar al menú” y “Saltar al primer hotspot” para mostrar los skip-links.</li>
+        <li>Abre el menú lateral con el botón hamburguesa, navega con Tab y selecciona “Biblioteca Planta Principal”.</li>
+        <li>Recorre los hotspots con Tab y activa uno con Enter. Valida que se abra el panel, se anuncie vía <code>aria-live</code> y que la audiodescripción pueda reproducirse.</li>
+        <li>Activa el modo de alto contraste y aumenta el tamaño del texto desde la barra de accesibilidad.</li>
+        <li>Presiona el botón de ayuda para revisar la lista de atajos y ciérralo con Escape.</li>
+        <li>Navega con las flechas de teclado y los botones anterior/siguiente para mostrar la navegación progresiva.</li>
+      </ol>
+    </section>
+
+    <section id="evidencias">
+      <h2>Evidencias a capturar</h2>
+      <ul>
+        <li>Captura de la escena con el panel de hotspot abierto y subtítulos visibles.</li>
+        <li>Resultado del comando <code>npm run audit</code> mostrando los archivos generados en <code>reports/</code>.</li>
+        <li>Salida de <code>npm test</code> verificando el enfoque de hotspots.</li>
+      </ul>
+    </section>
+
+    <section id="recursos">
+      <h2>Recursos rápidos</h2>
+      <ul>
+        <li><a href="reports/audit-report.html">Reporte de auditoría (una vez generado)</a></li>
+        <li><a href="instrumento_auditoria_v1.json">Instrumento de auditoría prellenado</a></li>
+        <li><a href="backlog.md">Backlog priorizado</a></li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
+

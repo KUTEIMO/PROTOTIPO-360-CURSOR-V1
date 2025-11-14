@@ -1,0 +1,10 @@
+/* Scrollbars finos */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-thumb { background: var(--emerald-30); border-radius: 3px; }
+
+/* Transiciones y ease presets */
+.transition-all { transition: all 0.3s ease; }
+.mask-fade {
+  mask-image: linear-gradient(to bottom,
+    transparent 0%, black 10%, black 90%, transparent 100%);
+}

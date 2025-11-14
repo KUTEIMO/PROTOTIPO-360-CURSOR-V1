@@ -1,0 +1,17 @@
+{
+  "name": "tour-virtual-accesible",
+  "version": "0.1.0",
+  "description": "MVP accesible de recorrido virtual 360° con Marzipano y pautas WCAG-MinTIC.",
+  "type": "module",
+  "scripts": {
+    "start": "npx http-server -c-1 -p 8080 .",
+    "audit": "node audit-runner.js",
+    "test": "npx playwright test",
+    "test:report": "npx playwright test --reporter=list"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.48.0",
+    "http-server": "^14.1.1"
+  }
+}
+

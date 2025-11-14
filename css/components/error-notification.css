@@ -1,0 +1,17 @@
+/* Error */
+.error-notification {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  background: #dc2626;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  animation: slideIn 0.3s ease-out;
+  z-index: 9999;
+}
+
+@keyframes slideIn {
+  from { transform: translateX(100%); }
+  to { transform: translateX(0); }
+}

@@ -1,0 +1,585 @@
+/* Estilos Base */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+:root {
+  --emerald: #059669;
+  --emerald-80: #059669CC;
+  --emerald-30: #0596694D;
+  --black-80: rgba(0, 0, 0, 0.8);
+  --black-70: rgba(0, 0, 0, 0.7);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background: #000;
+  color: white;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.tour-container {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+
+/* Header */
+.tour-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: var(--black-80);
+  backdrop-filter: blur(10px);
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  z-index: 1000;
+  gap: 1rem;
+}
+
+.menu-toggle {
+  background: var(--emerald);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.scene-title {
+  flex-grow: 1;
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.action-button {
+  background: var(--emerald-80);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+/* Navegación */
+.nav-arrow {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  background: var(--emerald-80);
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  transition: all 0.3s;
+  z-index: 1000;
+}
+
+.nav-arrow:hover {
+  background: var(--emerald);
+}
+
+.nav-prev { left: 2rem; }
+.nav-next { right: 2rem; }
+
+
+/* ============ Menú Lateral Actualizado ============ */
+.scene-menu {
+  position: fixed;
+  left: -320px;
+  top: 72px; /* Ajuste por el header */
+  bottom: 0;
+  width: 320px;
+  background: rgba(0, 0, 0, 0.95);
+  backdrop-filter: blur(15px);
+  padding: 1rem 0;
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 999;
+  overflow-y: auto;
+  border-right: 1px solid var(--emerald-30);
+}
+
+.scene-menu.active {
+  transform: translateX(320px);
+}
+
+/* Grupos Actualizados */
+.menu-group {
+  margin: 0.5rem 1rem;
+  border-radius: 8px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.05);
+  transition: all 0.3s ease;
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color: var(--emerald) rgba(0, 0, 0, 0.1);
+}
+
+.menu-group:hover {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.group-header {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  background: rgba(5, 150, 105, 0.1);
+  transition: background 0.2s ease;
+}
+
+.group-header:hover {
+  background: var(--emerald-30);
+}
+
+.group-header span:first-child {
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.toggle-icon {
+  color: var(--emerald);
+  transition: transform 0.3s ease;
+  font-size: 0.9em;
+}
+
+/* Items Actualizados */
+.group-items {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.group-items.active {
+  max-height: 40vh;
+  overflow-y: auto;
+  padding: 0 1rem;
+  margin: 0.5rem 0;
+  
+  /* Efecto de desvanecimiento para indicar scroll */
+  mask-image: linear-gradient(
+    to bottom,
+    transparent 0%,
+    black 10%,
+    black 90%,
+    transparent 100%
+  );
+}
+
+.menu-item {
+  padding: 0.75rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  color: rgba(255, 255, 255, 0.8);
+  margin: 2px 0;
+  min-height: 44px; /* Tamaño mínimo para tactil */
+}
+
+.menu-item:hover {
+  background: var(--emerald-30);
+  color: white;
+  transform: translateX(5px);
+}
+
+.menu-item span:last-child {
+  background: var(--emerald-30);
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.9em;
+  color: var(--emerald);
+}
+
+/* Scroll general del menú */
+.scene-menu {
+  scrollbar-width: thin;
+  scrollbar-color: var(--emerald) rgba(0, 0, 0, 0.2);
+}
+
+/* Ajuste para grupos anidados */
+.group-items {
+  scrollbar-width: thin;
+  scrollbar-color: var(--emerald) rgba(0, 0, 0, 0.1);
+}
+/* Ocultar flecha izquierda cuando el menú está abierto */
+.scene-menu.active ~ .nav-prev {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+
+
+/* Carga */
+.loading-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--black-70);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2000;
+}
+
+.loading-spinner {
+  width: 48px;
+  height: 48px;
+  border: 3px solid var(--emerald);
+  border-radius: 50%;
+  border-top-color: transparent;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* Hotspots */
+.hotspot {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  background: var(--emerald);
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  color: white;
+  border: 2px solid white;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.hotspot:hover {
+  transform: scale(1.2);
+}
+
+/* Error */
+.error-notification {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  background: #dc2626;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  animation: slideIn 0.3s ease-out;
+  z-index: 9999;
+}
+
+@keyframes slideIn {
+  from { transform: translateX(100%); }
+  to { transform: translateX(0); }
+}
+/* Grupos del Menú */
+.menu-group {
+    margin-bottom: 1rem;
+    border-bottom: 1px solid var(--emerald-30);
+	flex-shrink: 0;
+}
+
+
+.group-header {
+    padding: 0.75rem;
+    background: var(--black-70);
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.group-header:hover {
+    background: var(--emerald-30);
+}
+
+.group-items {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+
+.group-items.active {
+    max-height: 500px; /* Ajusta según necesidad */
+}
+
+.menu-item {
+    padding: 0.75rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.menu-item:hover {
+    background: var(--emerald-30);
+}
+
+/*v0 code*/
+/* Accessibility Menu */
+.accessibility-menu {
+  position: fixed;
+  top: 72px;
+  right: -320px;
+  width: 320px;
+  background: rgba(0, 0, 0, 0.95);
+  backdrop-filter: blur(15px);
+  height: calc(100vh - 72px);
+  z-index: 1001;
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  border-left: 1px solid var(--emerald-30);
+  overflow-y: auto;
+}
+
+.accessibility-menu.active {
+  transform: translateX(-320px);
+}
+
+.accessibility-header {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--emerald-30);
+}
+
+.accessibility-header h2 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: white;
+}
+
+.close-button {
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.accessibility-options {
+  padding: 1rem;
+}
+
+.option-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.option-label {
+  margin-left: 1rem;
+  color: white;
+}
+
+.option-info {
+  font-size: 0.875rem;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 1.5rem;
+}
+
+/* Switch Toggle */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 24px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: var(--emerald);
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px var(--emerald);
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+/* Enhanced Hotspots */
+.hotspot {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: var(--emerald);
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  color: white;
+  border: 2px solid white;
+  cursor: pointer;
+  transition: all 0.3s;
+  z-index: 100;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.hotspot:hover,
+.hotspot.active {
+  transform: scale(1.2);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+.hotspot-tooltip {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  max-width: 250px;
+  z-index: 101;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s;
+  border: 1px solid var(--emerald-30);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+.hotspot-tooltip.visible {
+  opacity: 1;
+}
+
+.hotspot-tooltip h3 {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  color: var(--emerald);
+}
+
+.hotspot-tooltip p {
+  font-size: 0.875rem;
+  line-height: 1.4;
+}
+
+/* Speaking indicator */
+.speaking-indicator {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  z-index: 1002;
+  opacity: 0;
+  transition: opacity 0.3s;
+  border: 1px solid var(--emerald-30);
+}
+
+.speaking-indicator.active {
+  opacity: 1;
+}
+
+.speaking-indicator .wave {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  height: 16px;
+}
+
+.speaking-indicator .bar {
+  width: 3px;
+  background-color: var(--emerald);
+  animation: sound 0.5s linear infinite alternate;
+}
+
+.speaking-indicator .bar:nth-child(1) {
+  height: 10px;
+  animation-delay: 0.1s;
+}
+.speaking-indicator .bar:nth-child(2) {
+  height: 16px;
+  animation-delay: 0.2s;
+}
+.speaking-indicator .bar:nth-child(3) {
+  height: 12px;
+  animation-delay: 0.3s;
+}
+.speaking-indicator .bar:nth-child(4) {
+  height: 8px;
+  animation-delay: 0.4s;
+}
+
+@keyframes sound {
+  0% {
+    height: 3px;
+  }
+  100% {
+    height: 16px;
+  }
+}
+/*v0 code*/
+
+.hotspot.nav-hotspot { /* estilos para flechas de navegación, e.g.: */
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  background: var(--emerald-80);
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  z-index: 100;
+}

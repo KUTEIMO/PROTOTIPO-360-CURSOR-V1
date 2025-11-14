@@ -1,0 +1,74 @@
+/* Navegación */
+.nav-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: var(--emerald-80);
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  transition: all 0.3s;
+  z-index: 1000;
+  border: none;
+  color: #fff;
+}
+
+.nav-arrow:hover,
+.nav-arrow:focus-visible {
+  background: var(--emerald);
+  outline: none;
+}
+
+.nav-prev { left: 1.5rem; }
+.nav-next { right: 1.5rem; }
+
+.nav-arrow[disabled] {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.direction-cue {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 80px;
+  height: 80px;
+  pointer-events: none;
+  transform: translate(-50%, -50%) scale(0);
+  opacity: 0;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  z-index: 900;
+  background: radial-gradient(circle at center, rgba(59, 130, 246, 0.35) 0%, rgba(59, 130, 246, 0.05) 70%, transparent 100%);
+}
+
+.direction-cue::after {
+  content: '➜';
+  display: block;
+  font-size: 2.5rem;
+  color: rgba(59, 130, 246, 0.85);
+  text-align: center;
+  line-height: 80px;
+}
+
+.direction-cue.direction-cue--visible {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.keyboard-instructions {
+  position: absolute;
+  left: 1.5rem;
+  bottom: 1.5rem;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 0.75rem 1rem;
+  border-radius: 0.75rem;
+  max-width: 320px;
+  font-size: 0.9rem;
+}
+
+.keyboard-instructions[hidden] {
+  display: none;
+}

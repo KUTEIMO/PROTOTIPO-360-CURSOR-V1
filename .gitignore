@@ -1,0 +1,14 @@
+.env
+.env.*
+node_modules/
+coverage/
+playwright-report/
+test-results/
+blob-report/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.log
+*.tmp
+.vscode/
+

@@ -1,0 +1,5530 @@
+{
+  "generatedAt": "2025-11-13T23:51:31.043Z",
+  "instrumentVersion": "v1",
+  "summary": {
+    "scenesAudited": 62,
+    "averageScore": 13,
+    "pending": [
+      {
+        "category": "A",
+        "label": "Perceptible"
+      },
+      {
+        "category": "B",
+        "label": "Operable"
+      },
+      {
+        "category": "C",
+        "label": "Comprensible"
+      },
+      {
+        "category": "D",
+        "label": "Robusto"
+      },
+      {
+        "category": "E",
+        "label": "Multimedia accesible"
+      },
+      {
+        "category": "F",
+        "label": "Teclado y atajos"
+      },
+      {
+        "category": "G",
+        "label": "Navegación"
+      },
+      {
+        "category": "A",
+        "label": "Perceptible"
+      },
+      {
+        "category": "B",
+        "label": "Operable"
+      },
+      {
+        "category": "C",
+        "label": "Comprensible"
+      },
+      {
+        "category": "D",
+        "label": "Robusto"
+      },
+      {
+        "category": "E",
+        "label": "Multimedia accesible"
+      },
+      {
+        "category": "F",
+        "label": "Teclado y atajos"
+      },
+      {
+        "category": "G",
+        "label": "Navegación"
+      },
+      {
+        "category": "A",
+        "label": "Perceptible"
+      },
+      {
+        "category": "B",
+        "label": "Operable"
+      },
+      {
+        "category": "C",
+        "label": "Comprensible"
+      },
+      {
+        "category": "D",
+        "label": "Robusto"
+      },
+      {
+        "category": "E",
+        "label": "Multimedia accesible"
+      },
+      {
+        "category": "F",
+        "label": "Teclado y atajos"
+      },
+      {
+        "category": "G",
+        "label": "Navegación"
+      },
+      {
+        "category": "A",
+        "label": "Perceptible"
+      },
+      {
+        "category": "B",
+        "label": "Operable"
+      },
+      {
+        "category": "C",
+        "label": "Comprensible"
+      },
+      {
+        "category": "D",
+        "label": "Robusto"
+      },
+      {
+        "category": "E",
+        "label": "Multimedia accesible"
+      },
+      {
+        "category": "F",
+        "label": "Teclado y atajos"
+      },
+      {
+        "category": "G",
+        "label": "Navegación"
+      },
+      {
+        "category": "A",
+        "label": "Perceptible"
+      },
+      {
+        "category": "B",
+        "label": "Operable"
+      },
+      {
+        "category": "C",
+        "label": "Comprensible"
+      },
+      {
+        "category": "D",
+        "label": "Robusto"
+      },
+      {
+        "category": "E",
+        "label": "Multimedia accesible"
+      },
+      {
+        "category": "F",
+        "label": "Teclado y atajos"
+      },
+      {
+        "category": "G",
+        "label": "Navegación"
+      },
+      {
+        "category": "A",
+        "label": "Perceptible"
+      },
+      {
+        "category": "B",
+        "label": "Operable"
+      },
+      {
+        "category": "C",
+        "label": "Comprensible"
+      },
+      {
+        "category": "D",
+        "label": "Robusto"
+      },
+      {
+        "category": "E",
+        "label": "Multimedia accesible"
+      },
+      {
+        "category": "F",
+        "label": "Teclado y atajos"
+      },
+      {
+        "category": "G",
+        "label": "Navegación"
+      },
+      {
+        "category": "A",
+        "label": "Perceptible"
+      },
+      {
+        "category": "B",
+        "label": "Operable"
+      },
+      {
+        "category": "C",
+        "label": "Comprensible"
+      },
+      {
+        "category": "D",
+        "label": "Robusto"
+      },
+      {
+        "category": "E",
+        "label": "Multimedia accesible"
+      },
+      {
+        "category": "F",
+        "label": "Teclado y atajos"
+      },
+      {
+        "category": "G",
+        "label": "Navegación"
+      },
+      {
+        "category": "A",
+        "label": "Perceptible"
+      },
+      {
+        "category": "B",
+        "label": "Operable"
+      },
+      {
+        "category": "C",
+        "label": "Comprensible"
+      },
+      {
+        "category": "D",
+        "label": "Robusto"
+      },
+      {
+        "category": "E",
+        "label": "Multimedia accesible"
+      },
+      {
+        "category": "F",
+        "label": "Teclado y atajos"
+      },
+      {
+        "category": "G",
+        "label": "Navegación"
+      },
+      {
+        "category": "A",
+        "label": "Perceptible"
+      },
+      {
+        "category": "B",
+        "label": "Operable"
+      },
+      {
+        "category": "C",
+        "label": "Comprensible"
+      },
+      {
+        "category": "D",
+        "label": "Robusto"
+      },
+      {
+        "category": "E",
+        "label": "Multimedia accesible"
+      },
+      {
+        "category": "F",
+        "label": "Teclado y atajos"
+      },
+      {
+        "category": "G",
+        "label": "Navegación"
+      },
+      {
+        "category": "A",
+        "label": "Perceptible"
+      },
+      {
+        "category": "B",
+        "label": "Operable"
+      },
+      {
+        "category": "C",
+        "label": "Comprensible"
+      },
+      {
+        "category": "D",
+        "label": "Robusto"
+      },
+      {
+        "category": "E",
+        "label": "Multimedia accesible"
+      },
+      {
+        "category": "F",
+        "label": "Teclado y atajos"
+      },
+      {
+        "category": "G",
+        "label": "Navegación"
+      },
+      {
+        "category": "A",
+        "label": "Perceptible"
+      },
+      {
+        "category": "B",
+        "label": "Operable"
+      },
+      {
+        "category": "C",
+        "label": "Comprensible"
+      },
+      {
+        "category": "D",
+        "label": "Robusto"
+      },
+      {
+        "category": "E",
+        "label": "Multimedia accesible"
+      },
+      {
+        "category": "F",
+        "label": "Teclado y atajos"
+      },
+      {
+        "category": "G",
+        "label": "Navegación"
+      },
+      {
+        "category": "A",
+        "label": "Perceptible"
+      },
+      {
+        "category": "B",
+        "label": "Operable"
+      },
+      {
+        "category": "C",
+        "label": "Comprensible"
+      },
+      {
+        "category": "D",
+        "label": "Robusto"
+      },
+      {
+        "category": "E",
+        "label": "Multimedia accesible"
+      },
+      {
+        "category": "F",
+        "label": "Teclado y atajos"
+      },
+      {
+        "category": "G",
+        "label": "Navegación"
+      },
+      {
+        "category": "A",
+        "label": "Perceptible"
+      },
+      {
+        "category": "B",
+        "label": "Operable"
+      },
+      {
+        "category": "C",
+        "label": "Comprensible"
+      },
+      {
+        "category": "D",
+        "label": "Robusto"
+      },
+      {
+        "category": "E",
+        "label": "Multimedia accesible"
+      },
+      {
+        "category": "F",
+        "label": "Teclado y atajos"
+      },
+      {
+        "category": "G",
+        "label": "Navegación"
+      },
+      {
+        "category": "A",
+        "label": "Perceptible"
+      },
+      {
+        "category": "B",
+        "label": "Operable"
+      },
+      {
+        "category": "C",
+        "label": "Comprensible"
+      },
+      {
+        "category": "D",
+        "label": "Robusto"
+      },
+      {
+        "category": "E",
+        "label": "Multimedia accesible"
+      },
+      {
+        "category": "F",
+        "label": "Teclado y atajos"
+      },
+      {
+        "category": "G",
+        "label": "Navegación"
+      },
+      {
+        "category": "A",
+        "label": "Perceptible"
+      },
+      {
+        "category": "B",
+        "label": "Operable"
+      },
+      {
+        "category": "C",
+        "label": "Comprensible"
+      },
+      {
+        "category": "D",
+        "label": "Robusto"
+      },
+      {
+        "category": "E",
+        "label": "Multimedia accesible"
+      },
+      {
+        "category": "F",
+        "label": "Teclado y atajos"
+      },
+      {
+        "category": "G",
+        "label": "Navegación"
+      },
+      {
+        "category": "A",
+        "label": "Perceptible"
+      },
+      {
+        "category": "B",
+        "label": "Operable"
+      },
+      {
+        "category": "C",
+        "label": "Comprensible"
+      },
+      {
+        "category": "D",
+        "label": "Robusto"
+      },
+      {
+        "category": "E",
+        "label": "Multimedia accesible"
+      },
+      {
+        "category": "F",
+        "label": "Teclado y atajos"
+      },
+      {
+        "category": "G",
+        "label": "Navegación"
+      },
+      {
+        "category": "A",
+        "label": "Perceptible"
+      },
+      {
+        "category": "B",
+        "label": "Operable"
+      },
+      {
+        "category": "C",
+        "label": "Comprensible"
+      },
+      {
+        "category": "D",
+        "label": "Robusto"
+      },
+      {
+        "category": "E",
+        "label": "Multimedia accesible"
+      },
+      {
+        "category": "F",
+        "label": "Teclado y atajos"
+      },
+      {
+        "category": "G",
+        "label": "Navegación"
+      },
+      {
+        "category": "A",
+        "label": "Perceptible"
+      },
+      {
+        "category": "B",
+        "label": "Operable"
+      },
+      {
+        "category": "C",
+        "label": "Comprensible"
+      },
+      {
+        "category": "D",
+        "label": "Robusto"
+      },
+      {
+        "category": "E",
+        "label": "Multimedia accesible"
+      },
+      {
+        "category": "F",
+        "label": "Teclado y atajos"
+      },
+      {
+        "category": "G",
+        "label": "Navegación"
+      },
+      {
+        "category": "A",
+        "label": "Perceptible"
+      },
+      {
+        "category": "B",
+        "label": "Operable"
+      },
+      {
+        "category": "C",
+        "label": "Comprensible"
+      },
+      {
+        "category": "D",
+        "label": "Robusto"
+      },
+      {
+        "category": "E",
+        "label": "Multimedia accesible"
+      },
+      {
+        "category": "F",
+        "label": "Teclado y atajos"
+      },
+      {
+        "category": "G",
+        "label": "Navegación"
+      },
+      {
+        "category": "A",
+        "label": "Perceptible"
+      },
+      {
+        "category": "B",
+        "label": "Operable"
+      },
+      {
+        "category": "C",
+        "label": "Comprensible"
+      },
+      {
+        "category": "D",
+        "label": "Robusto"
+      },
+      {
+        "category": "E",
+        "label": "Multimedia accesible"
+      },
+      {
+        "category": "F",
+        "label": "Teclado y atajos"
+      },
+      {
+        "category": "G",
+        "label": "Navegación"
+      },
+      {
+        "category": "A",
+        "label": "Perceptible"
+      },
+      {
+        "category": "B",
+        "label": "Operable"
+      },
+      {
+        "category": "C",
+        "label": "Comprensible"
+      },
+      {
+        "category": "D",
+        "label": "Robusto"
+      },
+      {
+        "category": "E",
+        "label": "Multimedia accesible"
+      },
+      {
+        "category": "F",
+        "label": "Teclado y atajos"
+      },
+      {
+        "category": "G",
+        "label": "Navegación"
+      },
+      {
+        "category": "A",
+        "label": "Perceptible"
+      },
+      {
+        "category": "B",
+        "label": "Operable"
+      },
+      {
+        "category": "C",
+        "label": "Comprensible"
+      },
+      {
+        "category": "D",
+        "label": "Robusto"
+      },
+      {
+        "category": "E",
+        "label": "Multimedia accesible"
+      },
+      {
+        "category": "F",
+        "label": "Teclado y atajos"
+      },
+      {
+        "category": "G",
+        "label": "Navegación"
+      },
+      {
+        "category": "A",
+        "label": "Perceptible"
+      },
+      {
+        "category": "B",
+        "label": "Operable"
+      },
+      {
+        "category": "C",
+        "label": "Comprensible"
+      },
+      {
+        "category": "D",
+        "label": "Robusto"
+      },
+      {
+        "category": "E",
+        "label": "Multimedia accesible"
+      },
+      {
+        "category": "F",
+        "label": "Teclado y atajos"
+      },
+      {
+        "category": "G",
+        "label": "Navegación"
+      },
+      {
+        "category": "A",
+        "label": "Perceptible"
+      },
+      {
+        "category": "B",
+        "label": "Operable"
+      },
+      {
+        "category": "C",
+        "label": "Comprensible"
+      },
+      {
+        "category": "D",
+        "label": "Robusto"
+      },
+      {
+        "category": "E",
+        "label": "Multimedia accesible"
+      },
+      {
+        "category": "F",
+        "label": "Teclado y atajos"
+      },
+      {
+        "category": "G",
+        "label": "Navegación"
+      },
+      {
+        "category": "A",
+        "label": "Perceptible"
+      },
+      {
+        "category": "B",
+        "label": "Operable"
+      },
+      {
+        "category": "C",
+        "label": "Comprensible"
+      },
+      {
+        "category": "D",
+        "label": "Robusto"
+      },
+      {
+        "category": "E",
+        "label": "Multimedia accesible"
+      },
+      {
+        "category": "F",
+        "label": "Teclado y atajos"
+      },
+      {
+        "category": "G",
+        "label": "Navegación"
+      },
+      {
+        "category": "A",
+        "label": "Perceptible"
+      },
+      {
+        "category": "B",
+        "label": "Operable"
+      },
+      {
+        "category": "C",
+        "label": "Comprensible"
+      },
+      {
+        "category": "D",
+        "label": "Robusto"
+      },
+      {
+        "category": "E",
+        "label": "Multimedia accesible"
+      },
+      {
+        "category": "F",
+        "label": "Teclado y atajos"
+      },
+      {
+        "category": "G",
+        "label": "Navegación"
+      },
+      {
+        "category": "A",
+        "label": "Perceptible"
+      },
+      {
+        "category": "B",
+        "label": "Operable"
+      },
+      {
+        "category": "C",
+        "label": "Comprensible"
+      },
+      {
+        "category": "D",
+        "label": "Robusto"
+      },
+      {
+        "category": "E",
+        "label": "Multimedia accesible"
+      },
+      {
+        "category": "F",
+        "label": "Teclado y atajos"
+      },
+      {
+        "category": "G",
+        "label": "Navegación"
+      },
+      {
+        "category": "A",
+        "label": "Perceptible"
+      },
+      {
+        "category": "B",
+        "label": "Operable"
+      },
+      {
+        "category": "C",
+        "label": "Comprensible"
+      },
+      {
+        "category": "D",
+        "label": "Robusto"
+      },
+      {
+        "category": "E",
+        "label": "Multimedia accesible"
+      },
+      {
+        "category": "F",
+        "label": "Teclado y atajos"
+      },
+      {
+        "category": "G",
+        "label": "Navegación"
+      },
+      {
+        "category": "A",
+        "label": "Perceptible"
+      },
+      {
+        "category": "B",
+        "label": "Operable"
+      },
+      {
+        "category": "C",
+        "label": "Comprensible"
+      },
+      {
+        "category": "D",
+        "label": "Robusto"
+      },
+      {
+        "category": "E",
+        "label": "Multimedia accesible"
+      },
+      {
+        "category": "F",
+        "label": "Teclado y atajos"
+      },
+      {
+        "category": "G",
+        "label": "Navegación"
+      },
+      {
+        "category": "A",
+        "label": "Perceptible"
+      },
+      {
+        "category": "B",
+        "label": "Operable"
+      },
+      {
+        "category": "C",
+        "label": "Comprensible"
+      },
+      {
+        "category": "D",
+        "label": "Robusto"
+      },
+      {
+        "category": "E",
+        "label": "Multimedia accesible"
+      },
+      {
+        "category": "F",
+        "label": "Teclado y atajos"
+      },
+      {
+        "category": "G",
+        "label": "Navegación"
+      },
+      {
+        "category": "A",
+        "label": "Perceptible"
+      },
+      {
+        "category": "B",
+        "label": "Operable"
+      },
+      {
+        "category": "C",
+        "label": "Comprensible"
+      },
+      {
+        "category": "D",
+        "label": "Robusto"
+      },
+      {
+        "category": "E",
+        "label": "Multimedia accesible"
+      },
+      {
+        "category": "F",
+        "label": "Teclado y atajos"
+      },
+      {
+        "category": "G",
+        "label": "Navegación"
+      },
+      {
+        "category": "A",
+        "label": "Perceptible"
+      },
+      {
+        "category": "B",
+        "label": "Operable"
+      },
+      {
+        "category": "C",
+        "label": "Comprensible"
+      },
+      {
+        "category": "D",
+        "label": "Robusto"
+      },
+      {
+        "category": "E",
+        "label": "Multimedia accesible"
+      },
+      {
+        "category": "F",
+        "label": "Teclado y atajos"
+      },
+      {
+        "category": "G",
+        "label": "Navegación"
+      },
+      {
+        "category": "A",
+        "label": "Perceptible"
+      },
+      {
+        "category": "B",
+        "label": "Operable"
+      },
+      {
+        "category": "C",
+        "label": "Comprensible"
+      },
+      {
+        "category": "D",
+        "label": "Robusto"
+      },
+      {
+        "category": "E",
+        "label": "Multimedia accesible"
+      },
+      {
+        "category": "F",
+        "label": "Teclado y atajos"
+      },
+      {
+        "category": "G",
+        "label": "Navegación"
+      },
+      {
+        "category": "A",
+        "label": "Perceptible"
+      },
+      {
+        "category": "B",
+        "label": "Operable"
+      },
+      {
+        "category": "C",
+        "label": "Comprensible"
+      },
+      {
+        "category": "D",
+        "label": "Robusto"
+      },
+      {
+        "category": "E",
+        "label": "Multimedia accesible"
+      },
+      {
+        "category": "F",
+        "label": "Teclado y atajos"
+      },
+      {
+        "category": "G",
+        "label": "Navegación"
+      },
+      {
+        "category": "A",
+        "label": "Perceptible"
+      },
+      {
+        "category": "B",
+        "label": "Operable"
+      },
+      {
+        "category": "C",
+        "label": "Comprensible"
+      },
+      {
+        "category": "D",
+        "label": "Robusto"
+      },
+      {
+        "category": "E",
+        "label": "Multimedia accesible"
+      },
+      {
+        "category": "F",
+        "label": "Teclado y atajos"
+      },
+      {
+        "category": "G",
+        "label": "Navegación"
+      },
+      {
+        "category": "A",
+        "label": "Perceptible"
+      },
+      {
+        "category": "B",
+        "label": "Operable"
+      },
+      {
+        "category": "C",
+        "label": "Comprensible"
+      },
+      {
+        "category": "D",
+        "label": "Robusto"
+      },
+      {
+        "category": "E",
+        "label": "Multimedia accesible"
+      },
+      {
+        "category": "F",
+        "label": "Teclado y atajos"
+      },
+      {
+        "category": "G",
+        "label": "Navegación"
+      },
+      {
+        "category": "A",
+        "label": "Perceptible"
+      },
+      {
+        "category": "B",
+        "label": "Operable"
+      },
+      {
+        "category": "C",
+        "label": "Comprensible"
+      },
+      {
+        "category": "D",
+        "label": "Robusto"
+      },
+      {
+        "category": "E",
+        "label": "Multimedia accesible"
+      },
+      {
+        "category": "F",
+        "label": "Teclado y atajos"
+      },
+      {
+        "category": "G",
+        "label": "Navegación"
+      },
+      {
+        "category": "A",
+        "label": "Perceptible"
+      },
+      {
+        "category": "B",
+        "label": "Operable"
+      },
+      {
+        "category": "C",
+        "label": "Comprensible"
+      },
+      {
+        "category": "D",
+        "label": "Robusto"
+      },
+      {
+        "category": "E",
+        "label": "Multimedia accesible"
+      },
+      {
+        "category": "F",
+        "label": "Teclado y atajos"
+      },
+      {
+        "category": "G",
+        "label": "Navegación"
+      },
+      {
+        "category": "A",
+        "label": "Perceptible"
+      },
+      {
+        "category": "B",
+        "label": "Operable"
+      },
+      {
+        "category": "C",
+        "label": "Comprensible"
+      },
+      {
+        "category": "D",
+        "label": "Robusto"
+      },
+      {
+        "category": "E",
+        "label": "Multimedia accesible"
+      },
+      {
+        "category": "F",
+        "label": "Teclado y atajos"
+      },
+      {
+        "category": "G",
+        "label": "Navegación"
+      },
+      {
+        "category": "A",
+        "label": "Perceptible"
+      },
+      {
+        "category": "B",
+        "label": "Operable"
+      },
+      {
+        "category": "C",
+        "label": "Comprensible"
+      },
+      {
+        "category": "D",
+        "label": "Robusto"
+      },
+      {
+        "category": "E",
+        "label": "Multimedia accesible"
+      },
+      {
+        "category": "F",
+        "label": "Teclado y atajos"
+      },
+      {
+        "category": "G",
+        "label": "Navegación"
+      },
+      {
+        "category": "A",
+        "label": "Perceptible"
+      },
+      {
+        "category": "B",
+        "label": "Operable"
+      },
+      {
+        "category": "C",
+        "label": "Comprensible"
+      },
+      {
+        "category": "D",
+        "label": "Robusto"
+      },
+      {
+        "category": "E",
+        "label": "Multimedia accesible"
+      },
+      {
+        "category": "F",
+        "label": "Teclado y atajos"
+      },
+      {
+        "category": "G",
+        "label": "Navegación"
+      },
+      {
+        "category": "A",
+        "label": "Perceptible"
+      },
+      {
+        "category": "B",
+        "label": "Operable"
+      },
+      {
+        "category": "C",
+        "label": "Comprensible"
+      },
+      {
+        "category": "D",
+        "label": "Robusto"
+      },
+      {
+        "category": "E",
+        "label": "Multimedia accesible"
+      },
+      {
+        "category": "F",
+        "label": "Teclado y atajos"
+      },
+      {
+        "category": "G",
+        "label": "Navegación"
+      },
+      {
+        "category": "A",
+        "label": "Perceptible"
+      },
+      {
+        "category": "B",
+        "label": "Operable"
+      },
+      {
+        "category": "C",
+        "label": "Comprensible"
+      },
+      {
+        "category": "D",
+        "label": "Robusto"
+      },
+      {
+        "category": "E",
+        "label": "Multimedia accesible"
+      },
+      {
+        "category": "F",
+        "label": "Teclado y atajos"
+      },
+      {
+        "category": "G",
+        "label": "Navegación"
+      },
+      {
+        "category": "A",
+        "label": "Perceptible"
+      },
+      {
+        "category": "B",
+        "label": "Operable"
+      },
+      {
+        "category": "C",
+        "label": "Comprensible"
+      },
+      {
+        "category": "D",
+        "label": "Robusto"
+      },
+      {
+        "category": "E",
+        "label": "Multimedia accesible"
+      },
+      {
+        "category": "F",
+        "label": "Teclado y atajos"
+      },
+      {
+        "category": "G",
+        "label": "Navegación"
+      },
+      {
+        "category": "A",
+        "label": "Perceptible"
+      },
+      {
+        "category": "B",
+        "label": "Operable"
+      },
+      {
+        "category": "C",
+        "label": "Comprensible"
+      },
+      {
+        "category": "D",
+        "label": "Robusto"
+      },
+      {
+        "category": "E",
+        "label": "Multimedia accesible"
+      },
+      {
+        "category": "F",
+        "label": "Teclado y atajos"
+      },
+      {
+        "category": "G",
+        "label": "Navegación"
+      },
+      {
+        "category": "A",
+        "label": "Perceptible"
+      },
+      {
+        "category": "B",
+        "label": "Operable"
+      },
+      {
+        "category": "C",
+        "label": "Comprensible"
+      },
+      {
+        "category": "D",
+        "label": "Robusto"
+      },
+      {
+        "category": "E",
+        "label": "Multimedia accesible"
+      },
+      {
+        "category": "F",
+        "label": "Teclado y atajos"
+      },
+      {
+        "category": "G",
+        "label": "Navegación"
+      },
+      {
+        "category": "A",
+        "label": "Perceptible"
+      },
+      {
+        "category": "B",
+        "label": "Operable"
+      },
+      {
+        "category": "C",
+        "label": "Comprensible"
+      },
+      {
+        "category": "D",
+        "label": "Robusto"
+      },
+      {
+        "category": "E",
+        "label": "Multimedia accesible"
+      },
+      {
+        "category": "F",
+        "label": "Teclado y atajos"
+      },
+      {
+        "category": "G",
+        "label": "Navegación"
+      },
+      {
+        "category": "A",
+        "label": "Perceptible"
+      },
+      {
+        "category": "B",
+        "label": "Operable"
+      },
+      {
+        "category": "C",
+        "label": "Comprensible"
+      },
+      {
+        "category": "D",
+        "label": "Robusto"
+      },
+      {
+        "category": "E",
+        "label": "Multimedia accesible"
+      },
+      {
+        "category": "F",
+        "label": "Teclado y atajos"
+      },
+      {
+        "category": "G",
+        "label": "Navegación"
+      },
+      {
+        "category": "A",
+        "label": "Perceptible"
+      },
+      {
+        "category": "B",
+        "label": "Operable"
+      },
+      {
+        "category": "C",
+        "label": "Comprensible"
+      },
+      {
+        "category": "D",
+        "label": "Robusto"
+      },
+      {
+        "category": "E",
+        "label": "Multimedia accesible"
+      },
+      {
+        "category": "F",
+        "label": "Teclado y atajos"
+      },
+      {
+        "category": "G",
+        "label": "Navegación"
+      },
+      {
+        "category": "A",
+        "label": "Perceptible"
+      },
+      {
+        "category": "B",
+        "label": "Operable"
+      },
+      {
+        "category": "C",
+        "label": "Comprensible"
+      },
+      {
+        "category": "D",
+        "label": "Robusto"
+      },
+      {
+        "category": "E",
+        "label": "Multimedia accesible"
+      },
+      {
+        "category": "F",
+        "label": "Teclado y atajos"
+      },
+      {
+        "category": "G",
+        "label": "Navegación"
+      },
+      {
+        "category": "A",
+        "label": "Perceptible"
+      },
+      {
+        "category": "B",
+        "label": "Operable"
+      },
+      {
+        "category": "C",
+        "label": "Comprensible"
+      },
+      {
+        "category": "D",
+        "label": "Robusto"
+      },
+      {
+        "category": "E",
+        "label": "Multimedia accesible"
+      },
+      {
+        "category": "F",
+        "label": "Teclado y atajos"
+      },
+      {
+        "category": "G",
+        "label": "Navegación"
+      },
+      {
+        "category": "A",
+        "label": "Perceptible"
+      },
+      {
+        "category": "B",
+        "label": "Operable"
+      },
+      {
+        "category": "C",
+        "label": "Comprensible"
+      },
+      {
+        "category": "D",
+        "label": "Robusto"
+      },
+      {
+        "category": "E",
+        "label": "Multimedia accesible"
+      },
+      {
+        "category": "F",
+        "label": "Teclado y atajos"
+      },
+      {
+        "category": "G",
+        "label": "Navegación"
+      },
+      {
+        "category": "A",
+        "label": "Perceptible"
+      },
+      {
+        "category": "B",
+        "label": "Operable"
+      },
+      {
+        "category": "C",
+        "label": "Comprensible"
+      },
+      {
+        "category": "D",
+        "label": "Robusto"
+      },
+      {
+        "category": "E",
+        "label": "Multimedia accesible"
+      },
+      {
+        "category": "F",
+        "label": "Teclado y atajos"
+      },
+      {
+        "category": "G",
+        "label": "Navegación"
+      },
+      {
+        "category": "A",
+        "label": "Perceptible"
+      },
+      {
+        "category": "B",
+        "label": "Operable"
+      },
+      {
+        "category": "C",
+        "label": "Comprensible"
+      },
+      {
+        "category": "D",
+        "label": "Robusto"
+      },
+      {
+        "category": "E",
+        "label": "Multimedia accesible"
+      },
+      {
+        "category": "F",
+        "label": "Teclado y atajos"
+      },
+      {
+        "category": "G",
+        "label": "Navegación"
+      },
+      {
+        "category": "A",
+        "label": "Perceptible"
+      },
+      {
+        "category": "B",
+        "label": "Operable"
+      },
+      {
+        "category": "C",
+        "label": "Comprensible"
+      },
+      {
+        "category": "D",
+        "label": "Robusto"
+      },
+      {
+        "category": "E",
+        "label": "Multimedia accesible"
+      },
+      {
+        "category": "F",
+        "label": "Teclado y atajos"
+      },
+      {
+        "category": "G",
+        "label": "Navegación"
+      },
+      {
+        "category": "A",
+        "label": "Perceptible"
+      },
+      {
+        "category": "B",
+        "label": "Operable"
+      },
+      {
+        "category": "C",
+        "label": "Comprensible"
+      },
+      {
+        "category": "D",
+        "label": "Robusto"
+      },
+      {
+        "category": "E",
+        "label": "Multimedia accesible"
+      },
+      {
+        "category": "F",
+        "label": "Teclado y atajos"
+      },
+      {
+        "category": "G",
+        "label": "Navegación"
+      },
+      {
+        "category": "A",
+        "label": "Perceptible"
+      },
+      {
+        "category": "B",
+        "label": "Operable"
+      },
+      {
+        "category": "C",
+        "label": "Comprensible"
+      },
+      {
+        "category": "D",
+        "label": "Robusto"
+      },
+      {
+        "category": "E",
+        "label": "Multimedia accesible"
+      },
+      {
+        "category": "F",
+        "label": "Teclado y atajos"
+      },
+      {
+        "category": "G",
+        "label": "Navegación"
+      },
+      {
+        "category": "A",
+        "label": "Perceptible"
+      },
+      {
+        "category": "B",
+        "label": "Operable"
+      },
+      {
+        "category": "C",
+        "label": "Comprensible"
+      },
+      {
+        "category": "D",
+        "label": "Robusto"
+      },
+      {
+        "category": "E",
+        "label": "Multimedia accesible"
+      },
+      {
+        "category": "F",
+        "label": "Teclado y atajos"
+      },
+      {
+        "category": "G",
+        "label": "Navegación"
+      },
+      {
+        "category": "A",
+        "label": "Perceptible"
+      },
+      {
+        "category": "B",
+        "label": "Operable"
+      },
+      {
+        "category": "C",
+        "label": "Comprensible"
+      },
+      {
+        "category": "D",
+        "label": "Robusto"
+      },
+      {
+        "category": "E",
+        "label": "Multimedia accesible"
+      },
+      {
+        "category": "F",
+        "label": "Teclado y atajos"
+      },
+      {
+        "category": "G",
+        "label": "Navegación"
+      },
+      {
+        "category": "A",
+        "label": "Perceptible"
+      },
+      {
+        "category": "B",
+        "label": "Operable"
+      },
+      {
+        "category": "C",
+        "label": "Comprensible"
+      },
+      {
+        "category": "D",
+        "label": "Robusto"
+      },
+      {
+        "category": "E",
+        "label": "Multimedia accesible"
+      },
+      {
+        "category": "F",
+        "label": "Teclado y atajos"
+      },
+      {
+        "category": "G",
+        "label": "Navegación"
+      },
+      {
+        "category": "A",
+        "label": "Perceptible"
+      },
+      {
+        "category": "B",
+        "label": "Operable"
+      },
+      {
+        "category": "C",
+        "label": "Comprensible"
+      },
+      {
+        "category": "D",
+        "label": "Robusto"
+      },
+      {
+        "category": "E",
+        "label": "Multimedia accesible"
+      },
+      {
+        "category": "F",
+        "label": "Teclado y atajos"
+      },
+      {
+        "category": "G",
+        "label": "Navegación"
+      },
+      {
+        "category": "A",
+        "label": "Perceptible"
+      },
+      {
+        "category": "B",
+        "label": "Operable"
+      },
+      {
+        "category": "C",
+        "label": "Comprensible"
+      },
+      {
+        "category": "D",
+        "label": "Robusto"
+      },
+      {
+        "category": "E",
+        "label": "Multimedia accesible"
+      },
+      {
+        "category": "F",
+        "label": "Teclado y atajos"
+      },
+      {
+        "category": "G",
+        "label": "Navegación"
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "score": 13,
+      "checks": [
+        {
+          "category": "A",
+          "label": "Perceptible",
+          "description": "Escena con textos alternativos y descripciones largas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "B",
+          "label": "Operable",
+          "description": "Hotspots configurados como botones accesibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "C",
+          "label": "Comprensible",
+          "description": "Audiodescripciones disponibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "D",
+          "label": "Robusto",
+          "description": "Transcripciones descargables.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "E",
+          "label": "Multimedia accesible",
+          "description": "Subtítulos VTT presentes.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "F",
+          "label": "Teclado y atajos",
+          "description": "Instrucciones de teclado definidas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "G",
+          "label": "Navegación",
+          "description": "Enlaces o flujo entre escenas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "H",
+          "label": "Metadatos",
+          "description": "Zona y taxonomía documentada.",
+          "status": "pass",
+          "details": "Cumple con el criterio."
+        }
+      ]
+    },
+    {
+      "score": 13,
+      "checks": [
+        {
+          "category": "A",
+          "label": "Perceptible",
+          "description": "Escena con textos alternativos y descripciones largas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "B",
+          "label": "Operable",
+          "description": "Hotspots configurados como botones accesibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "C",
+          "label": "Comprensible",
+          "description": "Audiodescripciones disponibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "D",
+          "label": "Robusto",
+          "description": "Transcripciones descargables.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "E",
+          "label": "Multimedia accesible",
+          "description": "Subtítulos VTT presentes.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "F",
+          "label": "Teclado y atajos",
+          "description": "Instrucciones de teclado definidas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "G",
+          "label": "Navegación",
+          "description": "Enlaces o flujo entre escenas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "H",
+          "label": "Metadatos",
+          "description": "Zona y taxonomía documentada.",
+          "status": "pass",
+          "details": "Cumple con el criterio."
+        }
+      ]
+    },
+    {
+      "score": 13,
+      "checks": [
+        {
+          "category": "A",
+          "label": "Perceptible",
+          "description": "Escena con textos alternativos y descripciones largas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "B",
+          "label": "Operable",
+          "description": "Hotspots configurados como botones accesibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "C",
+          "label": "Comprensible",
+          "description": "Audiodescripciones disponibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "D",
+          "label": "Robusto",
+          "description": "Transcripciones descargables.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "E",
+          "label": "Multimedia accesible",
+          "description": "Subtítulos VTT presentes.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "F",
+          "label": "Teclado y atajos",
+          "description": "Instrucciones de teclado definidas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "G",
+          "label": "Navegación",
+          "description": "Enlaces o flujo entre escenas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "H",
+          "label": "Metadatos",
+          "description": "Zona y taxonomía documentada.",
+          "status": "pass",
+          "details": "Cumple con el criterio."
+        }
+      ]
+    },
+    {
+      "score": 13,
+      "checks": [
+        {
+          "category": "A",
+          "label": "Perceptible",
+          "description": "Escena con textos alternativos y descripciones largas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "B",
+          "label": "Operable",
+          "description": "Hotspots configurados como botones accesibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "C",
+          "label": "Comprensible",
+          "description": "Audiodescripciones disponibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "D",
+          "label": "Robusto",
+          "description": "Transcripciones descargables.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "E",
+          "label": "Multimedia accesible",
+          "description": "Subtítulos VTT presentes.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "F",
+          "label": "Teclado y atajos",
+          "description": "Instrucciones de teclado definidas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "G",
+          "label": "Navegación",
+          "description": "Enlaces o flujo entre escenas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "H",
+          "label": "Metadatos",
+          "description": "Zona y taxonomía documentada.",
+          "status": "pass",
+          "details": "Cumple con el criterio."
+        }
+      ]
+    },
+    {
+      "score": 13,
+      "checks": [
+        {
+          "category": "A",
+          "label": "Perceptible",
+          "description": "Escena con textos alternativos y descripciones largas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "B",
+          "label": "Operable",
+          "description": "Hotspots configurados como botones accesibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "C",
+          "label": "Comprensible",
+          "description": "Audiodescripciones disponibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "D",
+          "label": "Robusto",
+          "description": "Transcripciones descargables.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "E",
+          "label": "Multimedia accesible",
+          "description": "Subtítulos VTT presentes.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "F",
+          "label": "Teclado y atajos",
+          "description": "Instrucciones de teclado definidas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "G",
+          "label": "Navegación",
+          "description": "Enlaces o flujo entre escenas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "H",
+          "label": "Metadatos",
+          "description": "Zona y taxonomía documentada.",
+          "status": "pass",
+          "details": "Cumple con el criterio."
+        }
+      ]
+    },
+    {
+      "score": 13,
+      "checks": [
+        {
+          "category": "A",
+          "label": "Perceptible",
+          "description": "Escena con textos alternativos y descripciones largas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "B",
+          "label": "Operable",
+          "description": "Hotspots configurados como botones accesibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "C",
+          "label": "Comprensible",
+          "description": "Audiodescripciones disponibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "D",
+          "label": "Robusto",
+          "description": "Transcripciones descargables.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "E",
+          "label": "Multimedia accesible",
+          "description": "Subtítulos VTT presentes.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "F",
+          "label": "Teclado y atajos",
+          "description": "Instrucciones de teclado definidas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "G",
+          "label": "Navegación",
+          "description": "Enlaces o flujo entre escenas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "H",
+          "label": "Metadatos",
+          "description": "Zona y taxonomía documentada.",
+          "status": "pass",
+          "details": "Cumple con el criterio."
+        }
+      ]
+    },
+    {
+      "score": 13,
+      "checks": [
+        {
+          "category": "A",
+          "label": "Perceptible",
+          "description": "Escena con textos alternativos y descripciones largas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "B",
+          "label": "Operable",
+          "description": "Hotspots configurados como botones accesibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "C",
+          "label": "Comprensible",
+          "description": "Audiodescripciones disponibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "D",
+          "label": "Robusto",
+          "description": "Transcripciones descargables.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "E",
+          "label": "Multimedia accesible",
+          "description": "Subtítulos VTT presentes.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "F",
+          "label": "Teclado y atajos",
+          "description": "Instrucciones de teclado definidas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "G",
+          "label": "Navegación",
+          "description": "Enlaces o flujo entre escenas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "H",
+          "label": "Metadatos",
+          "description": "Zona y taxonomía documentada.",
+          "status": "pass",
+          "details": "Cumple con el criterio."
+        }
+      ]
+    },
+    {
+      "score": 13,
+      "checks": [
+        {
+          "category": "A",
+          "label": "Perceptible",
+          "description": "Escena con textos alternativos y descripciones largas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "B",
+          "label": "Operable",
+          "description": "Hotspots configurados como botones accesibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "C",
+          "label": "Comprensible",
+          "description": "Audiodescripciones disponibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "D",
+          "label": "Robusto",
+          "description": "Transcripciones descargables.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "E",
+          "label": "Multimedia accesible",
+          "description": "Subtítulos VTT presentes.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "F",
+          "label": "Teclado y atajos",
+          "description": "Instrucciones de teclado definidas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "G",
+          "label": "Navegación",
+          "description": "Enlaces o flujo entre escenas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "H",
+          "label": "Metadatos",
+          "description": "Zona y taxonomía documentada.",
+          "status": "pass",
+          "details": "Cumple con el criterio."
+        }
+      ]
+    },
+    {
+      "score": 13,
+      "checks": [
+        {
+          "category": "A",
+          "label": "Perceptible",
+          "description": "Escena con textos alternativos y descripciones largas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "B",
+          "label": "Operable",
+          "description": "Hotspots configurados como botones accesibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "C",
+          "label": "Comprensible",
+          "description": "Audiodescripciones disponibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "D",
+          "label": "Robusto",
+          "description": "Transcripciones descargables.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "E",
+          "label": "Multimedia accesible",
+          "description": "Subtítulos VTT presentes.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "F",
+          "label": "Teclado y atajos",
+          "description": "Instrucciones de teclado definidas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "G",
+          "label": "Navegación",
+          "description": "Enlaces o flujo entre escenas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "H",
+          "label": "Metadatos",
+          "description": "Zona y taxonomía documentada.",
+          "status": "pass",
+          "details": "Cumple con el criterio."
+        }
+      ]
+    },
+    {
+      "score": 13,
+      "checks": [
+        {
+          "category": "A",
+          "label": "Perceptible",
+          "description": "Escena con textos alternativos y descripciones largas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "B",
+          "label": "Operable",
+          "description": "Hotspots configurados como botones accesibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "C",
+          "label": "Comprensible",
+          "description": "Audiodescripciones disponibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "D",
+          "label": "Robusto",
+          "description": "Transcripciones descargables.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "E",
+          "label": "Multimedia accesible",
+          "description": "Subtítulos VTT presentes.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "F",
+          "label": "Teclado y atajos",
+          "description": "Instrucciones de teclado definidas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "G",
+          "label": "Navegación",
+          "description": "Enlaces o flujo entre escenas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "H",
+          "label": "Metadatos",
+          "description": "Zona y taxonomía documentada.",
+          "status": "pass",
+          "details": "Cumple con el criterio."
+        }
+      ]
+    },
+    {
+      "score": 13,
+      "checks": [
+        {
+          "category": "A",
+          "label": "Perceptible",
+          "description": "Escena con textos alternativos y descripciones largas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "B",
+          "label": "Operable",
+          "description": "Hotspots configurados como botones accesibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "C",
+          "label": "Comprensible",
+          "description": "Audiodescripciones disponibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "D",
+          "label": "Robusto",
+          "description": "Transcripciones descargables.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "E",
+          "label": "Multimedia accesible",
+          "description": "Subtítulos VTT presentes.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "F",
+          "label": "Teclado y atajos",
+          "description": "Instrucciones de teclado definidas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "G",
+          "label": "Navegación",
+          "description": "Enlaces o flujo entre escenas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "H",
+          "label": "Metadatos",
+          "description": "Zona y taxonomía documentada.",
+          "status": "pass",
+          "details": "Cumple con el criterio."
+        }
+      ]
+    },
+    {
+      "score": 13,
+      "checks": [
+        {
+          "category": "A",
+          "label": "Perceptible",
+          "description": "Escena con textos alternativos y descripciones largas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "B",
+          "label": "Operable",
+          "description": "Hotspots configurados como botones accesibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "C",
+          "label": "Comprensible",
+          "description": "Audiodescripciones disponibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "D",
+          "label": "Robusto",
+          "description": "Transcripciones descargables.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "E",
+          "label": "Multimedia accesible",
+          "description": "Subtítulos VTT presentes.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "F",
+          "label": "Teclado y atajos",
+          "description": "Instrucciones de teclado definidas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "G",
+          "label": "Navegación",
+          "description": "Enlaces o flujo entre escenas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "H",
+          "label": "Metadatos",
+          "description": "Zona y taxonomía documentada.",
+          "status": "pass",
+          "details": "Cumple con el criterio."
+        }
+      ]
+    },
+    {
+      "score": 13,
+      "checks": [
+        {
+          "category": "A",
+          "label": "Perceptible",
+          "description": "Escena con textos alternativos y descripciones largas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "B",
+          "label": "Operable",
+          "description": "Hotspots configurados como botones accesibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "C",
+          "label": "Comprensible",
+          "description": "Audiodescripciones disponibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "D",
+          "label": "Robusto",
+          "description": "Transcripciones descargables.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "E",
+          "label": "Multimedia accesible",
+          "description": "Subtítulos VTT presentes.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "F",
+          "label": "Teclado y atajos",
+          "description": "Instrucciones de teclado definidas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "G",
+          "label": "Navegación",
+          "description": "Enlaces o flujo entre escenas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "H",
+          "label": "Metadatos",
+          "description": "Zona y taxonomía documentada.",
+          "status": "pass",
+          "details": "Cumple con el criterio."
+        }
+      ]
+    },
+    {
+      "score": 13,
+      "checks": [
+        {
+          "category": "A",
+          "label": "Perceptible",
+          "description": "Escena con textos alternativos y descripciones largas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "B",
+          "label": "Operable",
+          "description": "Hotspots configurados como botones accesibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "C",
+          "label": "Comprensible",
+          "description": "Audiodescripciones disponibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "D",
+          "label": "Robusto",
+          "description": "Transcripciones descargables.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "E",
+          "label": "Multimedia accesible",
+          "description": "Subtítulos VTT presentes.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "F",
+          "label": "Teclado y atajos",
+          "description": "Instrucciones de teclado definidas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "G",
+          "label": "Navegación",
+          "description": "Enlaces o flujo entre escenas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "H",
+          "label": "Metadatos",
+          "description": "Zona y taxonomía documentada.",
+          "status": "pass",
+          "details": "Cumple con el criterio."
+        }
+      ]
+    },
+    {
+      "score": 13,
+      "checks": [
+        {
+          "category": "A",
+          "label": "Perceptible",
+          "description": "Escena con textos alternativos y descripciones largas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "B",
+          "label": "Operable",
+          "description": "Hotspots configurados como botones accesibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "C",
+          "label": "Comprensible",
+          "description": "Audiodescripciones disponibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "D",
+          "label": "Robusto",
+          "description": "Transcripciones descargables.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "E",
+          "label": "Multimedia accesible",
+          "description": "Subtítulos VTT presentes.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "F",
+          "label": "Teclado y atajos",
+          "description": "Instrucciones de teclado definidas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "G",
+          "label": "Navegación",
+          "description": "Enlaces o flujo entre escenas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "H",
+          "label": "Metadatos",
+          "description": "Zona y taxonomía documentada.",
+          "status": "pass",
+          "details": "Cumple con el criterio."
+        }
+      ]
+    },
+    {
+      "score": 13,
+      "checks": [
+        {
+          "category": "A",
+          "label": "Perceptible",
+          "description": "Escena con textos alternativos y descripciones largas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "B",
+          "label": "Operable",
+          "description": "Hotspots configurados como botones accesibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "C",
+          "label": "Comprensible",
+          "description": "Audiodescripciones disponibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "D",
+          "label": "Robusto",
+          "description": "Transcripciones descargables.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "E",
+          "label": "Multimedia accesible",
+          "description": "Subtítulos VTT presentes.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "F",
+          "label": "Teclado y atajos",
+          "description": "Instrucciones de teclado definidas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "G",
+          "label": "Navegación",
+          "description": "Enlaces o flujo entre escenas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "H",
+          "label": "Metadatos",
+          "description": "Zona y taxonomía documentada.",
+          "status": "pass",
+          "details": "Cumple con el criterio."
+        }
+      ]
+    },
+    {
+      "score": 13,
+      "checks": [
+        {
+          "category": "A",
+          "label": "Perceptible",
+          "description": "Escena con textos alternativos y descripciones largas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "B",
+          "label": "Operable",
+          "description": "Hotspots configurados como botones accesibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "C",
+          "label": "Comprensible",
+          "description": "Audiodescripciones disponibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "D",
+          "label": "Robusto",
+          "description": "Transcripciones descargables.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "E",
+          "label": "Multimedia accesible",
+          "description": "Subtítulos VTT presentes.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "F",
+          "label": "Teclado y atajos",
+          "description": "Instrucciones de teclado definidas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "G",
+          "label": "Navegación",
+          "description": "Enlaces o flujo entre escenas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "H",
+          "label": "Metadatos",
+          "description": "Zona y taxonomía documentada.",
+          "status": "pass",
+          "details": "Cumple con el criterio."
+        }
+      ]
+    },
+    {
+      "score": 13,
+      "checks": [
+        {
+          "category": "A",
+          "label": "Perceptible",
+          "description": "Escena con textos alternativos y descripciones largas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "B",
+          "label": "Operable",
+          "description": "Hotspots configurados como botones accesibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "C",
+          "label": "Comprensible",
+          "description": "Audiodescripciones disponibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "D",
+          "label": "Robusto",
+          "description": "Transcripciones descargables.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "E",
+          "label": "Multimedia accesible",
+          "description": "Subtítulos VTT presentes.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "F",
+          "label": "Teclado y atajos",
+          "description": "Instrucciones de teclado definidas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "G",
+          "label": "Navegación",
+          "description": "Enlaces o flujo entre escenas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "H",
+          "label": "Metadatos",
+          "description": "Zona y taxonomía documentada.",
+          "status": "pass",
+          "details": "Cumple con el criterio."
+        }
+      ]
+    },
+    {
+      "score": 13,
+      "checks": [
+        {
+          "category": "A",
+          "label": "Perceptible",
+          "description": "Escena con textos alternativos y descripciones largas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "B",
+          "label": "Operable",
+          "description": "Hotspots configurados como botones accesibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "C",
+          "label": "Comprensible",
+          "description": "Audiodescripciones disponibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "D",
+          "label": "Robusto",
+          "description": "Transcripciones descargables.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "E",
+          "label": "Multimedia accesible",
+          "description": "Subtítulos VTT presentes.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "F",
+          "label": "Teclado y atajos",
+          "description": "Instrucciones de teclado definidas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "G",
+          "label": "Navegación",
+          "description": "Enlaces o flujo entre escenas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "H",
+          "label": "Metadatos",
+          "description": "Zona y taxonomía documentada.",
+          "status": "pass",
+          "details": "Cumple con el criterio."
+        }
+      ]
+    },
+    {
+      "score": 13,
+      "checks": [
+        {
+          "category": "A",
+          "label": "Perceptible",
+          "description": "Escena con textos alternativos y descripciones largas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "B",
+          "label": "Operable",
+          "description": "Hotspots configurados como botones accesibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "C",
+          "label": "Comprensible",
+          "description": "Audiodescripciones disponibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "D",
+          "label": "Robusto",
+          "description": "Transcripciones descargables.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "E",
+          "label": "Multimedia accesible",
+          "description": "Subtítulos VTT presentes.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "F",
+          "label": "Teclado y atajos",
+          "description": "Instrucciones de teclado definidas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "G",
+          "label": "Navegación",
+          "description": "Enlaces o flujo entre escenas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "H",
+          "label": "Metadatos",
+          "description": "Zona y taxonomía documentada.",
+          "status": "pass",
+          "details": "Cumple con el criterio."
+        }
+      ]
+    },
+    {
+      "score": 13,
+      "checks": [
+        {
+          "category": "A",
+          "label": "Perceptible",
+          "description": "Escena con textos alternativos y descripciones largas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "B",
+          "label": "Operable",
+          "description": "Hotspots configurados como botones accesibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "C",
+          "label": "Comprensible",
+          "description": "Audiodescripciones disponibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "D",
+          "label": "Robusto",
+          "description": "Transcripciones descargables.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "E",
+          "label": "Multimedia accesible",
+          "description": "Subtítulos VTT presentes.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "F",
+          "label": "Teclado y atajos",
+          "description": "Instrucciones de teclado definidas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "G",
+          "label": "Navegación",
+          "description": "Enlaces o flujo entre escenas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "H",
+          "label": "Metadatos",
+          "description": "Zona y taxonomía documentada.",
+          "status": "pass",
+          "details": "Cumple con el criterio."
+        }
+      ]
+    },
+    {
+      "score": 13,
+      "checks": [
+        {
+          "category": "A",
+          "label": "Perceptible",
+          "description": "Escena con textos alternativos y descripciones largas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "B",
+          "label": "Operable",
+          "description": "Hotspots configurados como botones accesibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "C",
+          "label": "Comprensible",
+          "description": "Audiodescripciones disponibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "D",
+          "label": "Robusto",
+          "description": "Transcripciones descargables.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "E",
+          "label": "Multimedia accesible",
+          "description": "Subtítulos VTT presentes.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "F",
+          "label": "Teclado y atajos",
+          "description": "Instrucciones de teclado definidas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "G",
+          "label": "Navegación",
+          "description": "Enlaces o flujo entre escenas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "H",
+          "label": "Metadatos",
+          "description": "Zona y taxonomía documentada.",
+          "status": "pass",
+          "details": "Cumple con el criterio."
+        }
+      ]
+    },
+    {
+      "score": 13,
+      "checks": [
+        {
+          "category": "A",
+          "label": "Perceptible",
+          "description": "Escena con textos alternativos y descripciones largas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "B",
+          "label": "Operable",
+          "description": "Hotspots configurados como botones accesibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "C",
+          "label": "Comprensible",
+          "description": "Audiodescripciones disponibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "D",
+          "label": "Robusto",
+          "description": "Transcripciones descargables.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "E",
+          "label": "Multimedia accesible",
+          "description": "Subtítulos VTT presentes.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "F",
+          "label": "Teclado y atajos",
+          "description": "Instrucciones de teclado definidas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "G",
+          "label": "Navegación",
+          "description": "Enlaces o flujo entre escenas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "H",
+          "label": "Metadatos",
+          "description": "Zona y taxonomía documentada.",
+          "status": "pass",
+          "details": "Cumple con el criterio."
+        }
+      ]
+    },
+    {
+      "score": 13,
+      "checks": [
+        {
+          "category": "A",
+          "label": "Perceptible",
+          "description": "Escena con textos alternativos y descripciones largas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "B",
+          "label": "Operable",
+          "description": "Hotspots configurados como botones accesibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "C",
+          "label": "Comprensible",
+          "description": "Audiodescripciones disponibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "D",
+          "label": "Robusto",
+          "description": "Transcripciones descargables.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "E",
+          "label": "Multimedia accesible",
+          "description": "Subtítulos VTT presentes.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "F",
+          "label": "Teclado y atajos",
+          "description": "Instrucciones de teclado definidas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "G",
+          "label": "Navegación",
+          "description": "Enlaces o flujo entre escenas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "H",
+          "label": "Metadatos",
+          "description": "Zona y taxonomía documentada.",
+          "status": "pass",
+          "details": "Cumple con el criterio."
+        }
+      ]
+    },
+    {
+      "score": 13,
+      "checks": [
+        {
+          "category": "A",
+          "label": "Perceptible",
+          "description": "Escena con textos alternativos y descripciones largas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "B",
+          "label": "Operable",
+          "description": "Hotspots configurados como botones accesibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "C",
+          "label": "Comprensible",
+          "description": "Audiodescripciones disponibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "D",
+          "label": "Robusto",
+          "description": "Transcripciones descargables.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "E",
+          "label": "Multimedia accesible",
+          "description": "Subtítulos VTT presentes.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "F",
+          "label": "Teclado y atajos",
+          "description": "Instrucciones de teclado definidas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "G",
+          "label": "Navegación",
+          "description": "Enlaces o flujo entre escenas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "H",
+          "label": "Metadatos",
+          "description": "Zona y taxonomía documentada.",
+          "status": "pass",
+          "details": "Cumple con el criterio."
+        }
+      ]
+    },
+    {
+      "score": 13,
+      "checks": [
+        {
+          "category": "A",
+          "label": "Perceptible",
+          "description": "Escena con textos alternativos y descripciones largas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "B",
+          "label": "Operable",
+          "description": "Hotspots configurados como botones accesibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "C",
+          "label": "Comprensible",
+          "description": "Audiodescripciones disponibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "D",
+          "label": "Robusto",
+          "description": "Transcripciones descargables.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "E",
+          "label": "Multimedia accesible",
+          "description": "Subtítulos VTT presentes.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "F",
+          "label": "Teclado y atajos",
+          "description": "Instrucciones de teclado definidas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "G",
+          "label": "Navegación",
+          "description": "Enlaces o flujo entre escenas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "H",
+          "label": "Metadatos",
+          "description": "Zona y taxonomía documentada.",
+          "status": "pass",
+          "details": "Cumple con el criterio."
+        }
+      ]
+    },
+    {
+      "score": 13,
+      "checks": [
+        {
+          "category": "A",
+          "label": "Perceptible",
+          "description": "Escena con textos alternativos y descripciones largas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "B",
+          "label": "Operable",
+          "description": "Hotspots configurados como botones accesibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "C",
+          "label": "Comprensible",
+          "description": "Audiodescripciones disponibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "D",
+          "label": "Robusto",
+          "description": "Transcripciones descargables.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "E",
+          "label": "Multimedia accesible",
+          "description": "Subtítulos VTT presentes.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "F",
+          "label": "Teclado y atajos",
+          "description": "Instrucciones de teclado definidas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "G",
+          "label": "Navegación",
+          "description": "Enlaces o flujo entre escenas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "H",
+          "label": "Metadatos",
+          "description": "Zona y taxonomía documentada.",
+          "status": "pass",
+          "details": "Cumple con el criterio."
+        }
+      ]
+    },
+    {
+      "score": 13,
+      "checks": [
+        {
+          "category": "A",
+          "label": "Perceptible",
+          "description": "Escena con textos alternativos y descripciones largas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "B",
+          "label": "Operable",
+          "description": "Hotspots configurados como botones accesibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "C",
+          "label": "Comprensible",
+          "description": "Audiodescripciones disponibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "D",
+          "label": "Robusto",
+          "description": "Transcripciones descargables.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "E",
+          "label": "Multimedia accesible",
+          "description": "Subtítulos VTT presentes.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "F",
+          "label": "Teclado y atajos",
+          "description": "Instrucciones de teclado definidas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "G",
+          "label": "Navegación",
+          "description": "Enlaces o flujo entre escenas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "H",
+          "label": "Metadatos",
+          "description": "Zona y taxonomía documentada.",
+          "status": "pass",
+          "details": "Cumple con el criterio."
+        }
+      ]
+    },
+    {
+      "score": 13,
+      "checks": [
+        {
+          "category": "A",
+          "label": "Perceptible",
+          "description": "Escena con textos alternativos y descripciones largas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "B",
+          "label": "Operable",
+          "description": "Hotspots configurados como botones accesibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "C",
+          "label": "Comprensible",
+          "description": "Audiodescripciones disponibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "D",
+          "label": "Robusto",
+          "description": "Transcripciones descargables.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "E",
+          "label": "Multimedia accesible",
+          "description": "Subtítulos VTT presentes.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "F",
+          "label": "Teclado y atajos",
+          "description": "Instrucciones de teclado definidas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "G",
+          "label": "Navegación",
+          "description": "Enlaces o flujo entre escenas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "H",
+          "label": "Metadatos",
+          "description": "Zona y taxonomía documentada.",
+          "status": "pass",
+          "details": "Cumple con el criterio."
+        }
+      ]
+    },
+    {
+      "score": 13,
+      "checks": [
+        {
+          "category": "A",
+          "label": "Perceptible",
+          "description": "Escena con textos alternativos y descripciones largas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "B",
+          "label": "Operable",
+          "description": "Hotspots configurados como botones accesibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "C",
+          "label": "Comprensible",
+          "description": "Audiodescripciones disponibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "D",
+          "label": "Robusto",
+          "description": "Transcripciones descargables.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "E",
+          "label": "Multimedia accesible",
+          "description": "Subtítulos VTT presentes.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "F",
+          "label": "Teclado y atajos",
+          "description": "Instrucciones de teclado definidas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "G",
+          "label": "Navegación",
+          "description": "Enlaces o flujo entre escenas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "H",
+          "label": "Metadatos",
+          "description": "Zona y taxonomía documentada.",
+          "status": "pass",
+          "details": "Cumple con el criterio."
+        }
+      ]
+    },
+    {
+      "score": 13,
+      "checks": [
+        {
+          "category": "A",
+          "label": "Perceptible",
+          "description": "Escena con textos alternativos y descripciones largas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "B",
+          "label": "Operable",
+          "description": "Hotspots configurados como botones accesibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "C",
+          "label": "Comprensible",
+          "description": "Audiodescripciones disponibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "D",
+          "label": "Robusto",
+          "description": "Transcripciones descargables.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "E",
+          "label": "Multimedia accesible",
+          "description": "Subtítulos VTT presentes.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "F",
+          "label": "Teclado y atajos",
+          "description": "Instrucciones de teclado definidas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "G",
+          "label": "Navegación",
+          "description": "Enlaces o flujo entre escenas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "H",
+          "label": "Metadatos",
+          "description": "Zona y taxonomía documentada.",
+          "status": "pass",
+          "details": "Cumple con el criterio."
+        }
+      ]
+    },
+    {
+      "score": 13,
+      "checks": [
+        {
+          "category": "A",
+          "label": "Perceptible",
+          "description": "Escena con textos alternativos y descripciones largas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "B",
+          "label": "Operable",
+          "description": "Hotspots configurados como botones accesibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "C",
+          "label": "Comprensible",
+          "description": "Audiodescripciones disponibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "D",
+          "label": "Robusto",
+          "description": "Transcripciones descargables.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "E",
+          "label": "Multimedia accesible",
+          "description": "Subtítulos VTT presentes.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "F",
+          "label": "Teclado y atajos",
+          "description": "Instrucciones de teclado definidas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "G",
+          "label": "Navegación",
+          "description": "Enlaces o flujo entre escenas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "H",
+          "label": "Metadatos",
+          "description": "Zona y taxonomía documentada.",
+          "status": "pass",
+          "details": "Cumple con el criterio."
+        }
+      ]
+    },
+    {
+      "score": 13,
+      "checks": [
+        {
+          "category": "A",
+          "label": "Perceptible",
+          "description": "Escena con textos alternativos y descripciones largas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "B",
+          "label": "Operable",
+          "description": "Hotspots configurados como botones accesibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "C",
+          "label": "Comprensible",
+          "description": "Audiodescripciones disponibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "D",
+          "label": "Robusto",
+          "description": "Transcripciones descargables.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "E",
+          "label": "Multimedia accesible",
+          "description": "Subtítulos VTT presentes.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "F",
+          "label": "Teclado y atajos",
+          "description": "Instrucciones de teclado definidas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "G",
+          "label": "Navegación",
+          "description": "Enlaces o flujo entre escenas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "H",
+          "label": "Metadatos",
+          "description": "Zona y taxonomía documentada.",
+          "status": "pass",
+          "details": "Cumple con el criterio."
+        }
+      ]
+    },
+    {
+      "score": 13,
+      "checks": [
+        {
+          "category": "A",
+          "label": "Perceptible",
+          "description": "Escena con textos alternativos y descripciones largas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "B",
+          "label": "Operable",
+          "description": "Hotspots configurados como botones accesibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "C",
+          "label": "Comprensible",
+          "description": "Audiodescripciones disponibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "D",
+          "label": "Robusto",
+          "description": "Transcripciones descargables.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "E",
+          "label": "Multimedia accesible",
+          "description": "Subtítulos VTT presentes.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "F",
+          "label": "Teclado y atajos",
+          "description": "Instrucciones de teclado definidas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "G",
+          "label": "Navegación",
+          "description": "Enlaces o flujo entre escenas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "H",
+          "label": "Metadatos",
+          "description": "Zona y taxonomía documentada.",
+          "status": "pass",
+          "details": "Cumple con el criterio."
+        }
+      ]
+    },
+    {
+      "score": 13,
+      "checks": [
+        {
+          "category": "A",
+          "label": "Perceptible",
+          "description": "Escena con textos alternativos y descripciones largas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "B",
+          "label": "Operable",
+          "description": "Hotspots configurados como botones accesibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "C",
+          "label": "Comprensible",
+          "description": "Audiodescripciones disponibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "D",
+          "label": "Robusto",
+          "description": "Transcripciones descargables.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "E",
+          "label": "Multimedia accesible",
+          "description": "Subtítulos VTT presentes.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "F",
+          "label": "Teclado y atajos",
+          "description": "Instrucciones de teclado definidas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "G",
+          "label": "Navegación",
+          "description": "Enlaces o flujo entre escenas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "H",
+          "label": "Metadatos",
+          "description": "Zona y taxonomía documentada.",
+          "status": "pass",
+          "details": "Cumple con el criterio."
+        }
+      ]
+    },
+    {
+      "score": 13,
+      "checks": [
+        {
+          "category": "A",
+          "label": "Perceptible",
+          "description": "Escena con textos alternativos y descripciones largas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "B",
+          "label": "Operable",
+          "description": "Hotspots configurados como botones accesibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "C",
+          "label": "Comprensible",
+          "description": "Audiodescripciones disponibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "D",
+          "label": "Robusto",
+          "description": "Transcripciones descargables.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "E",
+          "label": "Multimedia accesible",
+          "description": "Subtítulos VTT presentes.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "F",
+          "label": "Teclado y atajos",
+          "description": "Instrucciones de teclado definidas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "G",
+          "label": "Navegación",
+          "description": "Enlaces o flujo entre escenas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "H",
+          "label": "Metadatos",
+          "description": "Zona y taxonomía documentada.",
+          "status": "pass",
+          "details": "Cumple con el criterio."
+        }
+      ]
+    },
+    {
+      "score": 13,
+      "checks": [
+        {
+          "category": "A",
+          "label": "Perceptible",
+          "description": "Escena con textos alternativos y descripciones largas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "B",
+          "label": "Operable",
+          "description": "Hotspots configurados como botones accesibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "C",
+          "label": "Comprensible",
+          "description": "Audiodescripciones disponibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "D",
+          "label": "Robusto",
+          "description": "Transcripciones descargables.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "E",
+          "label": "Multimedia accesible",
+          "description": "Subtítulos VTT presentes.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "F",
+          "label": "Teclado y atajos",
+          "description": "Instrucciones de teclado definidas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "G",
+          "label": "Navegación",
+          "description": "Enlaces o flujo entre escenas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "H",
+          "label": "Metadatos",
+          "description": "Zona y taxonomía documentada.",
+          "status": "pass",
+          "details": "Cumple con el criterio."
+        }
+      ]
+    },
+    {
+      "score": 13,
+      "checks": [
+        {
+          "category": "A",
+          "label": "Perceptible",
+          "description": "Escena con textos alternativos y descripciones largas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "B",
+          "label": "Operable",
+          "description": "Hotspots configurados como botones accesibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "C",
+          "label": "Comprensible",
+          "description": "Audiodescripciones disponibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "D",
+          "label": "Robusto",
+          "description": "Transcripciones descargables.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "E",
+          "label": "Multimedia accesible",
+          "description": "Subtítulos VTT presentes.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "F",
+          "label": "Teclado y atajos",
+          "description": "Instrucciones de teclado definidas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "G",
+          "label": "Navegación",
+          "description": "Enlaces o flujo entre escenas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "H",
+          "label": "Metadatos",
+          "description": "Zona y taxonomía documentada.",
+          "status": "pass",
+          "details": "Cumple con el criterio."
+        }
+      ]
+    },
+    {
+      "score": 13,
+      "checks": [
+        {
+          "category": "A",
+          "label": "Perceptible",
+          "description": "Escena con textos alternativos y descripciones largas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "B",
+          "label": "Operable",
+          "description": "Hotspots configurados como botones accesibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "C",
+          "label": "Comprensible",
+          "description": "Audiodescripciones disponibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "D",
+          "label": "Robusto",
+          "description": "Transcripciones descargables.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "E",
+          "label": "Multimedia accesible",
+          "description": "Subtítulos VTT presentes.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "F",
+          "label": "Teclado y atajos",
+          "description": "Instrucciones de teclado definidas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "G",
+          "label": "Navegación",
+          "description": "Enlaces o flujo entre escenas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "H",
+          "label": "Metadatos",
+          "description": "Zona y taxonomía documentada.",
+          "status": "pass",
+          "details": "Cumple con el criterio."
+        }
+      ]
+    },
+    {
+      "score": 13,
+      "checks": [
+        {
+          "category": "A",
+          "label": "Perceptible",
+          "description": "Escena con textos alternativos y descripciones largas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "B",
+          "label": "Operable",
+          "description": "Hotspots configurados como botones accesibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "C",
+          "label": "Comprensible",
+          "description": "Audiodescripciones disponibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "D",
+          "label": "Robusto",
+          "description": "Transcripciones descargables.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "E",
+          "label": "Multimedia accesible",
+          "description": "Subtítulos VTT presentes.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "F",
+          "label": "Teclado y atajos",
+          "description": "Instrucciones de teclado definidas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "G",
+          "label": "Navegación",
+          "description": "Enlaces o flujo entre escenas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "H",
+          "label": "Metadatos",
+          "description": "Zona y taxonomía documentada.",
+          "status": "pass",
+          "details": "Cumple con el criterio."
+        }
+      ]
+    },
+    {
+      "score": 13,
+      "checks": [
+        {
+          "category": "A",
+          "label": "Perceptible",
+          "description": "Escena con textos alternativos y descripciones largas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "B",
+          "label": "Operable",
+          "description": "Hotspots configurados como botones accesibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "C",
+          "label": "Comprensible",
+          "description": "Audiodescripciones disponibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "D",
+          "label": "Robusto",
+          "description": "Transcripciones descargables.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "E",
+          "label": "Multimedia accesible",
+          "description": "Subtítulos VTT presentes.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "F",
+          "label": "Teclado y atajos",
+          "description": "Instrucciones de teclado definidas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "G",
+          "label": "Navegación",
+          "description": "Enlaces o flujo entre escenas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "H",
+          "label": "Metadatos",
+          "description": "Zona y taxonomía documentada.",
+          "status": "pass",
+          "details": "Cumple con el criterio."
+        }
+      ]
+    },
+    {
+      "score": 13,
+      "checks": [
+        {
+          "category": "A",
+          "label": "Perceptible",
+          "description": "Escena con textos alternativos y descripciones largas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "B",
+          "label": "Operable",
+          "description": "Hotspots configurados como botones accesibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "C",
+          "label": "Comprensible",
+          "description": "Audiodescripciones disponibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "D",
+          "label": "Robusto",
+          "description": "Transcripciones descargables.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "E",
+          "label": "Multimedia accesible",
+          "description": "Subtítulos VTT presentes.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "F",
+          "label": "Teclado y atajos",
+          "description": "Instrucciones de teclado definidas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "G",
+          "label": "Navegación",
+          "description": "Enlaces o flujo entre escenas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "H",
+          "label": "Metadatos",
+          "description": "Zona y taxonomía documentada.",
+          "status": "pass",
+          "details": "Cumple con el criterio."
+        }
+      ]
+    },
+    {
+      "score": 13,
+      "checks": [
+        {
+          "category": "A",
+          "label": "Perceptible",
+          "description": "Escena con textos alternativos y descripciones largas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "B",
+          "label": "Operable",
+          "description": "Hotspots configurados como botones accesibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "C",
+          "label": "Comprensible",
+          "description": "Audiodescripciones disponibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "D",
+          "label": "Robusto",
+          "description": "Transcripciones descargables.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "E",
+          "label": "Multimedia accesible",
+          "description": "Subtítulos VTT presentes.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "F",
+          "label": "Teclado y atajos",
+          "description": "Instrucciones de teclado definidas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "G",
+          "label": "Navegación",
+          "description": "Enlaces o flujo entre escenas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "H",
+          "label": "Metadatos",
+          "description": "Zona y taxonomía documentada.",
+          "status": "pass",
+          "details": "Cumple con el criterio."
+        }
+      ]
+    },
+    {
+      "score": 13,
+      "checks": [
+        {
+          "category": "A",
+          "label": "Perceptible",
+          "description": "Escena con textos alternativos y descripciones largas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "B",
+          "label": "Operable",
+          "description": "Hotspots configurados como botones accesibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "C",
+          "label": "Comprensible",
+          "description": "Audiodescripciones disponibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "D",
+          "label": "Robusto",
+          "description": "Transcripciones descargables.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "E",
+          "label": "Multimedia accesible",
+          "description": "Subtítulos VTT presentes.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "F",
+          "label": "Teclado y atajos",
+          "description": "Instrucciones de teclado definidas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "G",
+          "label": "Navegación",
+          "description": "Enlaces o flujo entre escenas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "H",
+          "label": "Metadatos",
+          "description": "Zona y taxonomía documentada.",
+          "status": "pass",
+          "details": "Cumple con el criterio."
+        }
+      ]
+    },
+    {
+      "score": 13,
+      "checks": [
+        {
+          "category": "A",
+          "label": "Perceptible",
+          "description": "Escena con textos alternativos y descripciones largas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "B",
+          "label": "Operable",
+          "description": "Hotspots configurados como botones accesibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "C",
+          "label": "Comprensible",
+          "description": "Audiodescripciones disponibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "D",
+          "label": "Robusto",
+          "description": "Transcripciones descargables.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "E",
+          "label": "Multimedia accesible",
+          "description": "Subtítulos VTT presentes.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "F",
+          "label": "Teclado y atajos",
+          "description": "Instrucciones de teclado definidas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "G",
+          "label": "Navegación",
+          "description": "Enlaces o flujo entre escenas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "H",
+          "label": "Metadatos",
+          "description": "Zona y taxonomía documentada.",
+          "status": "pass",
+          "details": "Cumple con el criterio."
+        }
+      ]
+    },
+    {
+      "score": 13,
+      "checks": [
+        {
+          "category": "A",
+          "label": "Perceptible",
+          "description": "Escena con textos alternativos y descripciones largas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "B",
+          "label": "Operable",
+          "description": "Hotspots configurados como botones accesibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "C",
+          "label": "Comprensible",
+          "description": "Audiodescripciones disponibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "D",
+          "label": "Robusto",
+          "description": "Transcripciones descargables.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "E",
+          "label": "Multimedia accesible",
+          "description": "Subtítulos VTT presentes.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "F",
+          "label": "Teclado y atajos",
+          "description": "Instrucciones de teclado definidas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "G",
+          "label": "Navegación",
+          "description": "Enlaces o flujo entre escenas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "H",
+          "label": "Metadatos",
+          "description": "Zona y taxonomía documentada.",
+          "status": "pass",
+          "details": "Cumple con el criterio."
+        }
+      ]
+    },
+    {
+      "score": 13,
+      "checks": [
+        {
+          "category": "A",
+          "label": "Perceptible",
+          "description": "Escena con textos alternativos y descripciones largas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "B",
+          "label": "Operable",
+          "description": "Hotspots configurados como botones accesibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "C",
+          "label": "Comprensible",
+          "description": "Audiodescripciones disponibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "D",
+          "label": "Robusto",
+          "description": "Transcripciones descargables.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "E",
+          "label": "Multimedia accesible",
+          "description": "Subtítulos VTT presentes.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "F",
+          "label": "Teclado y atajos",
+          "description": "Instrucciones de teclado definidas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "G",
+          "label": "Navegación",
+          "description": "Enlaces o flujo entre escenas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "H",
+          "label": "Metadatos",
+          "description": "Zona y taxonomía documentada.",
+          "status": "pass",
+          "details": "Cumple con el criterio."
+        }
+      ]
+    },
+    {
+      "score": 13,
+      "checks": [
+        {
+          "category": "A",
+          "label": "Perceptible",
+          "description": "Escena con textos alternativos y descripciones largas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "B",
+          "label": "Operable",
+          "description": "Hotspots configurados como botones accesibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "C",
+          "label": "Comprensible",
+          "description": "Audiodescripciones disponibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "D",
+          "label": "Robusto",
+          "description": "Transcripciones descargables.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "E",
+          "label": "Multimedia accesible",
+          "description": "Subtítulos VTT presentes.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "F",
+          "label": "Teclado y atajos",
+          "description": "Instrucciones de teclado definidas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "G",
+          "label": "Navegación",
+          "description": "Enlaces o flujo entre escenas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "H",
+          "label": "Metadatos",
+          "description": "Zona y taxonomía documentada.",
+          "status": "pass",
+          "details": "Cumple con el criterio."
+        }
+      ]
+    },
+    {
+      "score": 13,
+      "checks": [
+        {
+          "category": "A",
+          "label": "Perceptible",
+          "description": "Escena con textos alternativos y descripciones largas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "B",
+          "label": "Operable",
+          "description": "Hotspots configurados como botones accesibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "C",
+          "label": "Comprensible",
+          "description": "Audiodescripciones disponibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "D",
+          "label": "Robusto",
+          "description": "Transcripciones descargables.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "E",
+          "label": "Multimedia accesible",
+          "description": "Subtítulos VTT presentes.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "F",
+          "label": "Teclado y atajos",
+          "description": "Instrucciones de teclado definidas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "G",
+          "label": "Navegación",
+          "description": "Enlaces o flujo entre escenas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "H",
+          "label": "Metadatos",
+          "description": "Zona y taxonomía documentada.",
+          "status": "pass",
+          "details": "Cumple con el criterio."
+        }
+      ]
+    },
+    {
+      "score": 13,
+      "checks": [
+        {
+          "category": "A",
+          "label": "Perceptible",
+          "description": "Escena con textos alternativos y descripciones largas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "B",
+          "label": "Operable",
+          "description": "Hotspots configurados como botones accesibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "C",
+          "label": "Comprensible",
+          "description": "Audiodescripciones disponibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "D",
+          "label": "Robusto",
+          "description": "Transcripciones descargables.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "E",
+          "label": "Multimedia accesible",
+          "description": "Subtítulos VTT presentes.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "F",
+          "label": "Teclado y atajos",
+          "description": "Instrucciones de teclado definidas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "G",
+          "label": "Navegación",
+          "description": "Enlaces o flujo entre escenas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "H",
+          "label": "Metadatos",
+          "description": "Zona y taxonomía documentada.",
+          "status": "pass",
+          "details": "Cumple con el criterio."
+        }
+      ]
+    },
+    {
+      "score": 13,
+      "checks": [
+        {
+          "category": "A",
+          "label": "Perceptible",
+          "description": "Escena con textos alternativos y descripciones largas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "B",
+          "label": "Operable",
+          "description": "Hotspots configurados como botones accesibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "C",
+          "label": "Comprensible",
+          "description": "Audiodescripciones disponibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "D",
+          "label": "Robusto",
+          "description": "Transcripciones descargables.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "E",
+          "label": "Multimedia accesible",
+          "description": "Subtítulos VTT presentes.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "F",
+          "label": "Teclado y atajos",
+          "description": "Instrucciones de teclado definidas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "G",
+          "label": "Navegación",
+          "description": "Enlaces o flujo entre escenas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "H",
+          "label": "Metadatos",
+          "description": "Zona y taxonomía documentada.",
+          "status": "pass",
+          "details": "Cumple con el criterio."
+        }
+      ]
+    },
+    {
+      "score": 13,
+      "checks": [
+        {
+          "category": "A",
+          "label": "Perceptible",
+          "description": "Escena con textos alternativos y descripciones largas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "B",
+          "label": "Operable",
+          "description": "Hotspots configurados como botones accesibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "C",
+          "label": "Comprensible",
+          "description": "Audiodescripciones disponibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "D",
+          "label": "Robusto",
+          "description": "Transcripciones descargables.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "E",
+          "label": "Multimedia accesible",
+          "description": "Subtítulos VTT presentes.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "F",
+          "label": "Teclado y atajos",
+          "description": "Instrucciones de teclado definidas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "G",
+          "label": "Navegación",
+          "description": "Enlaces o flujo entre escenas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "H",
+          "label": "Metadatos",
+          "description": "Zona y taxonomía documentada.",
+          "status": "pass",
+          "details": "Cumple con el criterio."
+        }
+      ]
+    },
+    {
+      "score": 13,
+      "checks": [
+        {
+          "category": "A",
+          "label": "Perceptible",
+          "description": "Escena con textos alternativos y descripciones largas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "B",
+          "label": "Operable",
+          "description": "Hotspots configurados como botones accesibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "C",
+          "label": "Comprensible",
+          "description": "Audiodescripciones disponibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "D",
+          "label": "Robusto",
+          "description": "Transcripciones descargables.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "E",
+          "label": "Multimedia accesible",
+          "description": "Subtítulos VTT presentes.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "F",
+          "label": "Teclado y atajos",
+          "description": "Instrucciones de teclado definidas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "G",
+          "label": "Navegación",
+          "description": "Enlaces o flujo entre escenas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "H",
+          "label": "Metadatos",
+          "description": "Zona y taxonomía documentada.",
+          "status": "pass",
+          "details": "Cumple con el criterio."
+        }
+      ]
+    },
+    {
+      "score": 13,
+      "checks": [
+        {
+          "category": "A",
+          "label": "Perceptible",
+          "description": "Escena con textos alternativos y descripciones largas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "B",
+          "label": "Operable",
+          "description": "Hotspots configurados como botones accesibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "C",
+          "label": "Comprensible",
+          "description": "Audiodescripciones disponibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "D",
+          "label": "Robusto",
+          "description": "Transcripciones descargables.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "E",
+          "label": "Multimedia accesible",
+          "description": "Subtítulos VTT presentes.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "F",
+          "label": "Teclado y atajos",
+          "description": "Instrucciones de teclado definidas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "G",
+          "label": "Navegación",
+          "description": "Enlaces o flujo entre escenas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "H",
+          "label": "Metadatos",
+          "description": "Zona y taxonomía documentada.",
+          "status": "pass",
+          "details": "Cumple con el criterio."
+        }
+      ]
+    },
+    {
+      "score": 13,
+      "checks": [
+        {
+          "category": "A",
+          "label": "Perceptible",
+          "description": "Escena con textos alternativos y descripciones largas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "B",
+          "label": "Operable",
+          "description": "Hotspots configurados como botones accesibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "C",
+          "label": "Comprensible",
+          "description": "Audiodescripciones disponibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "D",
+          "label": "Robusto",
+          "description": "Transcripciones descargables.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "E",
+          "label": "Multimedia accesible",
+          "description": "Subtítulos VTT presentes.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "F",
+          "label": "Teclado y atajos",
+          "description": "Instrucciones de teclado definidas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "G",
+          "label": "Navegación",
+          "description": "Enlaces o flujo entre escenas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "H",
+          "label": "Metadatos",
+          "description": "Zona y taxonomía documentada.",
+          "status": "pass",
+          "details": "Cumple con el criterio."
+        }
+      ]
+    },
+    {
+      "score": 13,
+      "checks": [
+        {
+          "category": "A",
+          "label": "Perceptible",
+          "description": "Escena con textos alternativos y descripciones largas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "B",
+          "label": "Operable",
+          "description": "Hotspots configurados como botones accesibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "C",
+          "label": "Comprensible",
+          "description": "Audiodescripciones disponibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "D",
+          "label": "Robusto",
+          "description": "Transcripciones descargables.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "E",
+          "label": "Multimedia accesible",
+          "description": "Subtítulos VTT presentes.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "F",
+          "label": "Teclado y atajos",
+          "description": "Instrucciones de teclado definidas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "G",
+          "label": "Navegación",
+          "description": "Enlaces o flujo entre escenas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "H",
+          "label": "Metadatos",
+          "description": "Zona y taxonomía documentada.",
+          "status": "pass",
+          "details": "Cumple con el criterio."
+        }
+      ]
+    },
+    {
+      "score": 13,
+      "checks": [
+        {
+          "category": "A",
+          "label": "Perceptible",
+          "description": "Escena con textos alternativos y descripciones largas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "B",
+          "label": "Operable",
+          "description": "Hotspots configurados como botones accesibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "C",
+          "label": "Comprensible",
+          "description": "Audiodescripciones disponibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "D",
+          "label": "Robusto",
+          "description": "Transcripciones descargables.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "E",
+          "label": "Multimedia accesible",
+          "description": "Subtítulos VTT presentes.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "F",
+          "label": "Teclado y atajos",
+          "description": "Instrucciones de teclado definidas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "G",
+          "label": "Navegación",
+          "description": "Enlaces o flujo entre escenas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "H",
+          "label": "Metadatos",
+          "description": "Zona y taxonomía documentada.",
+          "status": "pass",
+          "details": "Cumple con el criterio."
+        }
+      ]
+    },
+    {
+      "score": 13,
+      "checks": [
+        {
+          "category": "A",
+          "label": "Perceptible",
+          "description": "Escena con textos alternativos y descripciones largas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "B",
+          "label": "Operable",
+          "description": "Hotspots configurados como botones accesibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "C",
+          "label": "Comprensible",
+          "description": "Audiodescripciones disponibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "D",
+          "label": "Robusto",
+          "description": "Transcripciones descargables.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "E",
+          "label": "Multimedia accesible",
+          "description": "Subtítulos VTT presentes.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "F",
+          "label": "Teclado y atajos",
+          "description": "Instrucciones de teclado definidas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "G",
+          "label": "Navegación",
+          "description": "Enlaces o flujo entre escenas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "H",
+          "label": "Metadatos",
+          "description": "Zona y taxonomía documentada.",
+          "status": "pass",
+          "details": "Cumple con el criterio."
+        }
+      ]
+    },
+    {
+      "score": 13,
+      "checks": [
+        {
+          "category": "A",
+          "label": "Perceptible",
+          "description": "Escena con textos alternativos y descripciones largas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "B",
+          "label": "Operable",
+          "description": "Hotspots configurados como botones accesibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "C",
+          "label": "Comprensible",
+          "description": "Audiodescripciones disponibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "D",
+          "label": "Robusto",
+          "description": "Transcripciones descargables.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "E",
+          "label": "Multimedia accesible",
+          "description": "Subtítulos VTT presentes.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "F",
+          "label": "Teclado y atajos",
+          "description": "Instrucciones de teclado definidas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "G",
+          "label": "Navegación",
+          "description": "Enlaces o flujo entre escenas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "H",
+          "label": "Metadatos",
+          "description": "Zona y taxonomía documentada.",
+          "status": "pass",
+          "details": "Cumple con el criterio."
+        }
+      ]
+    },
+    {
+      "score": 13,
+      "checks": [
+        {
+          "category": "A",
+          "label": "Perceptible",
+          "description": "Escena con textos alternativos y descripciones largas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "B",
+          "label": "Operable",
+          "description": "Hotspots configurados como botones accesibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "C",
+          "label": "Comprensible",
+          "description": "Audiodescripciones disponibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "D",
+          "label": "Robusto",
+          "description": "Transcripciones descargables.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "E",
+          "label": "Multimedia accesible",
+          "description": "Subtítulos VTT presentes.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "F",
+          "label": "Teclado y atajos",
+          "description": "Instrucciones de teclado definidas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "G",
+          "label": "Navegación",
+          "description": "Enlaces o flujo entre escenas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "H",
+          "label": "Metadatos",
+          "description": "Zona y taxonomía documentada.",
+          "status": "pass",
+          "details": "Cumple con el criterio."
+        }
+      ]
+    },
+    {
+      "score": 13,
+      "checks": [
+        {
+          "category": "A",
+          "label": "Perceptible",
+          "description": "Escena con textos alternativos y descripciones largas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "B",
+          "label": "Operable",
+          "description": "Hotspots configurados como botones accesibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "C",
+          "label": "Comprensible",
+          "description": "Audiodescripciones disponibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "D",
+          "label": "Robusto",
+          "description": "Transcripciones descargables.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "E",
+          "label": "Multimedia accesible",
+          "description": "Subtítulos VTT presentes.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "F",
+          "label": "Teclado y atajos",
+          "description": "Instrucciones de teclado definidas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "G",
+          "label": "Navegación",
+          "description": "Enlaces o flujo entre escenas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "H",
+          "label": "Metadatos",
+          "description": "Zona y taxonomía documentada.",
+          "status": "pass",
+          "details": "Cumple con el criterio."
+        }
+      ]
+    },
+    {
+      "score": 13,
+      "checks": [
+        {
+          "category": "A",
+          "label": "Perceptible",
+          "description": "Escena con textos alternativos y descripciones largas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "B",
+          "label": "Operable",
+          "description": "Hotspots configurados como botones accesibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "C",
+          "label": "Comprensible",
+          "description": "Audiodescripciones disponibles.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "D",
+          "label": "Robusto",
+          "description": "Transcripciones descargables.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "E",
+          "label": "Multimedia accesible",
+          "description": "Subtítulos VTT presentes.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "F",
+          "label": "Teclado y atajos",
+          "description": "Instrucciones de teclado definidas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "G",
+          "label": "Navegación",
+          "description": "Enlaces o flujo entre escenas.",
+          "status": "fail",
+          "details": "Falta información para este criterio."
+        },
+        {
+          "category": "H",
+          "label": "Metadatos",
+          "description": "Zona y taxonomía documentada.",
+          "status": "pass",
+          "details": "Cumple con el criterio."
+        }
+      ]
+    }
+  ]
+}

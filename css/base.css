@@ -1,0 +1,123 @@
+/* Estilos Base */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+:root {
+  --font-scale: 1;
+  --emerald: #059669;
+  --emerald-80: #059669CC;
+  --emerald-30: #0596694D;
+  --black-80: rgba(0, 0, 0, 0.8);
+  --black-70: rgba(0, 0, 0, 0.7);
+  --contrast-bg: #0b1120;
+  --contrast-text: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+html {
+  font-size: calc(16px * var(--font-scale));
+}
+
+body {
+  background: #000;
+  color: white;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.js-enabled .no-js-message {
+  display: none !important;
+}
+
+.tour-container {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+}
+
+body.theme-high-contrast {
+  background: var(--contrast-bg);
+  color: var(--contrast-text);
+}
+
+body.theme-high-contrast .tour-header,
+body.theme-high-contrast .scene-menu,
+body.theme-high-contrast .accessibility-menu,
+body.theme-high-contrast .hotspot-panel {
+  background-color: rgba(0, 0, 0, 0.92);
+}
+
+body.accessible-mode .hotspot-inline-button,
+body.accessible-mode .toolbar-button {
+  border-width: 2px;
+}
+
+.tour-layout {
+  display: flex;
+  flex: 1;
+  position: relative;
+}
+
+.viewer-section {
+  position: relative;
+  flex: 1;
+  height: 100%;
+}
+
+.panorama {
+  width: 100%;
+  height: 100%;
+}
+
+.hotspot-inline-list {
+  position: absolute;
+  left: 50%;
+  bottom: 1.5rem;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 0.5rem;
+  list-style: none;
+  background: rgba(0, 0, 0, 0.55);
+  padding: 0.6rem 1rem;
+  border-radius: 999px;
+  z-index: 1100;
+}
+
+.hotspot-inline-item {
+  margin: 0;
+}
+
+.hotspot-inline-button {
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  color: #fff;
+  border-radius: 999px;
+  padding: 0.35rem 0.85rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.hotspot-inline-button:hover,
+.hotspot-inline-button:focus-visible {
+  background: var(--emerald-80);
+  outline: none;
+}
