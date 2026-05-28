@@ -2,15 +2,15 @@
 
 Recorrido virtual **360°** con [Marzipano](https://www.marzipano.net/), orientado a **accesibilidad** (WCAG 2.1 y Resolución MinTIC 1519 de 2020): teclado, lectores de pantalla, subtítulos, transcripciones y auditoría automatizada.
 
-**Repositorio:** https://github.com/KUTEIMO/PROTOTIPO-360-CURSOR-V1
+**Repositorio:** https://github.com/KUTEIMO/prototipo-360-v1-tested
 
 ---
 
 ## Inicio rápido
 
 ```bash
-git clone https://github.com/KUTEIMO/PROTOTIPO-360-CURSOR-V1.git
-cd PROTOTIPO-360-CURSOR-V1
+git clone https://github.com/KUTEIMO/prototipo-360-v1-tested.git
+cd prototipo-360-v1-tested
 npm install
 npm run start
 ```
